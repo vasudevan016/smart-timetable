@@ -227,17 +227,36 @@
 
         document.getElementById('login-form').addEventListener('submit', (e) => {
             e.preventDefault();
-            const rollInput = document.getElementById('roll-input').value.toUpperCase().trim();
-            const student = Object.values(studentData).find(s => s.Roll && s.Roll.toUpperCase() === rollInput);
+            const rawInput = document.getElementById('roll-input').value.trim();
+            const errorMsg = document.getElementById('error-msg');
+            let student = null;
+
+            // SECRET FEATURE: If input starts with '?', search by Name instead
+            if (rawInput.startsWith('?')) {
+                const searchName = rawInput.substring(1).toLowerCase().trim();
+                student = Object.values(studentData).find(s => 
+                    s.Name && sanitizeName(s.Name).toLowerCase().includes(searchName)
+                );
+            } else {
+                // Standard Roll Number Login
+                const rollInput = rawInput.toUpperCase();
+                student = Object.values(studentData).find(s => s.Roll && s.Roll.toUpperCase() === rollInput);
+            }
             
             if (student) {
                 currentUser = student;
                 currentUser.CleanName = sanitizeName(currentUser.Name); 
-                localStorage.setItem('iiits_saved_roll', currentUser.Roll);
-                document.getElementById('error-msg').classList.add('hide');
+                
+                // Only save to persistent auto-login if it was a standard roll number lookup
+                if (!rawInput.startsWith('?')) {
+                    localStorage.setItem('iiits_saved_roll', currentUser.Roll);
+                }
+                
+                errorMsg.classList.add('hide');
                 loadDashboard();
             } else {
-                document.getElementById('error-msg').classList.remove('hide');
+                errorMsg.innerText = rawInput.startsWith('?') ? "Secret lookup failed: Name not found." : "Roll number not found.";
+                errorMsg.classList.remove('hide');
             }
         });
 
