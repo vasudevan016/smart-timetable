@@ -377,9 +377,17 @@
                 btn.onclick = () => { activeDay = day; renderSchedule(); };
                 tabsContainer.appendChild(btn);
             });
+            
+            // Auto-scroll the active tab into view on mobile
+            const activeBtn = tabsContainer.querySelector('.bg-brand-600');
+            if(activeBtn) {
+                tabsContainer.scrollTo({
+                    left: activeBtn.offsetLeft - (tabsContainer.offsetWidth / 2) + (activeBtn.offsetWidth / 2),
+                    behavior: 'smooth'
+                });
+            }
         }
 
-        // REDESIGNED: Ultra-Compact Mobile Layout
         function renderFocusMode() {
             const container = document.getElementById('focus-container');
             container.innerHTML = '';
@@ -513,6 +521,42 @@
                 container.innerHTML += dayHTML;
             });
             document.getElementById('status-text').innerText = `You have ${totalClasses} total classes scheduled for this week.`;
+        }
+
+        // SWIPE GESTURE LOGIC
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const focusContainer = document.getElementById('focus-container');
+        
+        focusContainer.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, {passive: true});
+
+        focusContainer.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, {passive: true});
+
+        function handleSwipe() {
+            if (viewMode !== 'focus') return;
+            const swipeThreshold = 50;
+            const swipeDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            const currentIndex = swipeDays.indexOf(activeDay);
+            
+            if (touchStartX - touchEndX > swipeThreshold) {
+                // Swipe Left -> Next Day
+                if (currentIndex < swipeDays.length - 1) {
+                    activeDay = swipeDays[currentIndex + 1];
+                    renderSchedule();
+                }
+            }
+            if (touchEndX - touchStartX > swipeThreshold) {
+                // Swipe Right -> Prev Day
+                if (currentIndex > 0) {
+                    activeDay = swipeDays[currentIndex - 1];
+                    renderSchedule();
+                }
+            }
         }
         
         if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(e => {}));
