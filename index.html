@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IIITS | Smart Timetable</title>
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#1e1b4b">
+    <meta name="theme-color" content="#030712">
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,13 +20,17 @@
                         brand: { 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb' }
                     },
                     animation: {
-                        'fade-in': 'fadeIn 0.5s ease-out forwards',
+                        'fade-in': 'fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'slide-up': 'slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards',
                         'slide-up-banner': 'slideUpBanner 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
                         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'blob': 'blob 10s infinite alternate',
                     },
                     keyframes: {
                         fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
-                        slideUpBanner: { '0%': { opacity: '0', transform: 'translateY(100px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        slideUpBanner: { '0%': { opacity: '0', transform: 'translateY(100px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        blob: { '0%': { transform: 'translate(0px, 0px) scale(1)' }, '100%': { transform: 'translate(30px, -50px) scale(1.1)' } }
                     }
                 }
             }
@@ -34,28 +38,51 @@
     </script>
     <style>
         body {
-            background: radial-gradient(circle at top right, #1e1b4b, #030712 50%);
-            background-attachment: fixed;
+            background-color: #030712;
+            overflow-x: hidden;
         }
-        .glass-panel {
-            background: rgba(17, 24, 39, 0.6);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        /* Animated Ambient Background */
+        .ambient-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: -1; overflow: hidden;
+            background: #030712;
         }
-        .glass-card {
-            background: linear-gradient(145deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
-            border: 1px solid rgba(255,255,255,0.06);
-        }
+        .blob-1 { position: absolute; top: -10%; left: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(60px); animation: blob 15s infinite alternate; }
+        .blob-2 { position: absolute; bottom: -20%; right: -10%; width: 60vw; height: 60vw; background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(80px); animation: blob 12s infinite alternate-reverse; }
+        
+        .glass-panel { background: rgba(17, 24, 39, 0.65); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); }
+        .glass-card { background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%); border: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s, box-shadow 0.2s; }
+        .glass-card:hover { transform: translateY(-2px); box-shadow: 0 10px 40px -10px rgba(0,0,0,0.5); border-color: rgba(255,255,255,0.1); }
+        
         .hide { display: none !important; }
         .hide-scrollbar::-webkit-scrollbar { display: none; }
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* Custom Toggle Switch */
+        .toggle-checkbox:checked { right: 0; border-color: #3b82f6; }
+        .toggle-checkbox:checked + .toggle-label { background-color: #3b82f6; }
+        
+        /* Toast Notification */
+        #toast { transition: opacity 0.3s, transform 0.3s; transform: translateY(20px); opacity: 0; }
+        #toast.show { transform: translateY(0); opacity: 1; }
     </style>
 </head>
 <body class="text-gray-100 min-h-screen font-sans antialiased flex flex-col selection:bg-brand-500 selection:text-white">
 
-    <!-- Automatic Install Banner -->
+    <!-- Animated Background -->
+    <div class="ambient-bg">
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-20 left-1/2 -translate-x-1/2 z-[200] glass-panel px-6 py-3 rounded-full flex items-center gap-3 border-brand-500/50 pointer-events-none">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span id="toast-msg" class="text-sm font-bold tracking-wide"></span>
+    </div>
+
+    <!-- PWA Banner -->
     <div id="install-banner" class="hide fixed bottom-4 left-4 right-4 md:left-1/2 md:-translate-x-1/2 md:w-[400px] z-[100] glass-panel rounded-2xl p-4 flex items-center justify-between shadow-2xl border border-brand-500/30 animate-slide-up-banner bg-gray-900/90">
         <div class="flex items-center gap-3">
             <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center shadow-lg flex-shrink-0">
@@ -67,124 +94,152 @@
             </div>
         </div>
         <div class="flex gap-1 items-center">
-            <button id="close-install-btn" class="p-2 text-gray-500 hover:text-white transition-colors h-10 w-10 flex items-center justify-center rounded-lg"><i class="fa-solid fa-xmark"></i></button>
+            <button id="close-install-btn" class="p-2 text-gray-500 hover:text-white transition-colors h-10 w-10 rounded-lg"><i class="fa-solid fa-xmark"></i></button>
             <button id="install-btn" class="bg-brand-600 hover:bg-brand-500 text-white text-xs font-bold py-2.5 px-4 rounded-lg shadow-[0_0_15px_rgba(37,99,235,0.4)] transition-all uppercase tracking-wider">Install</button>
         </div>
     </div>
 
     <!-- Login Screen -->
-    <div id="login-screen" class="hide flex flex-col items-center justify-center min-h-screen px-4 animate-fade-in relative">
-        <div class="glass-panel p-8 md:p-10 rounded-3xl w-full max-w-md text-center border-t border-t-brand-500/50 relative overflow-hidden shadow-2xl z-10">
+    <div id="login-screen" class="hide flex flex-col items-center justify-center min-h-screen px-4 animate-fade-in relative z-10">
+        <div class="glass-panel p-8 md:p-10 rounded-3xl w-full max-w-md text-center border-t border-t-brand-500/50 relative overflow-hidden shadow-2xl">
             <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-brand-500 rounded-b-full shadow-[0_0_20px_rgba(59,130,246,0.8)]"></div>
-            <i class="fa-solid fa-bolt text-5xl text-transparent bg-clip-text bg-gradient-to-br from-brand-400 to-indigo-600 mb-6"></i>
+            <div class="w-20 h-20 mx-auto bg-gradient-to-br from-brand-500/20 to-indigo-600/20 rounded-2xl flex items-center justify-center mb-6 border border-white/5">
+                <i class="fa-solid fa-bolt text-4xl text-transparent bg-clip-text bg-gradient-to-br from-brand-400 to-indigo-400"></i>
+            </div>
             <h1 class="text-3xl font-extrabold mb-2 tracking-tight">Smart Timetable</h1>
-            <p class="text-gray-400 mb-8 text-sm">Sync your academic schedule instantly.</p>
+            <p class="text-gray-400 mb-8 text-sm font-medium">Sync your academic schedule instantly.</p>
             
             <form id="login-form" class="space-y-5">
-                <div class="relative">
-                    <i class="fa-solid fa-id-card absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"></i>
+                <div class="relative group">
+                    <i class="fa-solid fa-id-card absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-brand-400 transition-colors"></i>
                     <input type="text" id="roll-input" placeholder="Roll Number (e.g., S20260020364)" required
-                        class="w-full pl-11 pr-4 py-3.5 bg-gray-900/80 border border-gray-700/50 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition-all text-white placeholder-gray-600 uppercase font-mono text-sm tracking-wider shadow-inner">
+                        class="w-full pl-11 pr-4 py-4 bg-gray-950/50 border border-gray-700/50 rounded-xl focus:ring-2 focus:ring-brand-500/50 focus:border-brand-500 outline-none transition-all text-white placeholder-gray-600 uppercase font-mono text-sm tracking-wider shadow-inner">
                 </div>
-                <button type="submit" class="w-full bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 text-white font-bold py-3.5 px-4 rounded-xl transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] flex items-center justify-center gap-2">
-                    Access Dashboard <i class="fa-solid fa-arrow-right"></i>
+                <button type="submit" class="w-full bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 text-white font-bold py-4 px-4 rounded-xl transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] flex items-center justify-center gap-2 group">
+                    Access Dashboard <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                 </button>
-                <p id="error-msg" class="text-red-400 text-sm mt-2 hide bg-red-900/20 py-2 rounded-lg border border-red-500/20"></p>
+                <p id="error-msg" class="text-red-400 text-sm mt-2 hide bg-red-900/20 py-2.5 rounded-xl border border-red-500/20 font-medium"></p>
             </form>
         </div>
         <div class="absolute bottom-8 text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
     </div>
 
     <!-- Dashboard Screen -->
-    <div id="dashboard-screen" class="hide flex flex-col min-h-screen animate-fade-in">
+    <div id="dashboard-screen" class="hide flex flex-col min-h-screen animate-fade-in z-10">
         
-        <!-- Navbar -->
+        <!-- Premium Navbar -->
         <nav class="glass-panel sticky top-0 z-50 px-4 md:px-8 py-3 flex justify-between items-center border-b border-gray-800/50">
             <div class="flex items-center gap-4">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center shadow-lg">
-                    <i class="fa-solid fa-calendar-check text-white text-lg"></i>
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center shadow-lg relative group cursor-pointer" id="share-btn">
+                    <i class="fa-solid fa-share-nodes text-white text-lg group-hover:scale-110 transition-transform"></i>
+                    <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 bg-gray-800 text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">Share Day</span>
                 </div>
                 <div>
                     <h1 class="text-xl font-bold tracking-tight hidden sm:block leading-none mb-1">IIITS Schedule</h1>
-                    <div id="live-clock" class="text-xs font-mono text-brand-400 font-semibold tracking-widest hidden sm:block"></div>
+                    <div id="live-clock" class="text-xs font-mono text-brand-400 font-bold tracking-widest hidden sm:block"></div>
                 </div>
             </div>
+
+            <!-- View Mode Toggle -->
+            <div class="hidden md:flex bg-gray-900/80 border border-gray-700/50 p-1 rounded-lg">
+                <button id="view-focus-btn" class="px-4 py-1.5 rounded-md text-sm font-bold bg-gray-700 text-white shadow transition-all">Focus Mode</button>
+                <button id="view-grid-btn" class="px-4 py-1.5 rounded-md text-sm font-bold text-gray-400 hover:text-white transition-all">Grid Mode</button>
+            </div>
+            
             <div class="flex items-center gap-4 md:gap-6">
-                <button id="notify-btn" class="text-gray-400 hover:text-yellow-400 transition-colors tooltip relative group">
+                <button id="notify-btn" class="text-gray-400 hover:text-yellow-400 transition-colors relative group">
                     <i class="fa-solid fa-bell text-lg"></i>
                 </button>
                 <div class="text-right flex flex-col items-end">
                     <span id="user-name" class="font-bold text-sm md:text-base bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400"></span>
-                    <span id="user-details" class="text-xs font-mono text-brand-400 font-semibold tracking-wide bg-brand-900/30 px-2 py-0.5 rounded mt-1 border border-brand-500/20"></span>
+                    <span id="user-details" class="text-[10px] font-mono text-brand-400 font-bold tracking-widest bg-brand-900/30 px-2 py-0.5 rounded border border-brand-500/20 mt-0.5"></span>
                 </div>
-                <button id="logout-btn" class="bg-gray-800/80 hover:bg-red-500/20 hover:text-red-400 text-gray-400 h-10 w-10 rounded-xl transition-all border border-gray-700/50 flex items-center justify-center group">
+                <button id="logout-btn" class="bg-gray-800/80 hover:bg-red-500/20 hover:border-red-500/50 hover:text-red-400 text-gray-400 h-10 w-10 rounded-xl transition-all border border-gray-700/50 flex items-center justify-center group">
                     <i class="fa-solid fa-power-off group-hover:scale-110 transition-transform"></i>
                 </button>
             </div>
         </nav>
 
-        <!-- Widened container (w-full px-4) to fit 6 columns perfectly -->
-        <main class="flex-grow p-4 md:p-6 w-full max-w-[100%] mx-auto flex flex-col">
-            <div class="mb-6 mt-2">
-                <h2 id="greeting-text" class="text-3xl md:text-4xl font-extrabold tracking-tight mb-1"></h2>
-                <p id="status-text" class="text-gray-400 font-medium"></p>
+        <!-- Main Content Area -->
+        <main class="flex-grow p-4 md:p-6 lg:p-8 w-full max-w-[100%] mx-auto flex flex-col">
+            
+            <!-- Dynamic Header -->
+            <div class="mb-6 mt-2 flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div>
+                    <h2 id="greeting-text" class="text-3xl md:text-4xl font-extrabold tracking-tight mb-1"></h2>
+                    <p id="status-text" class="text-gray-400 font-medium"></p>
+                </div>
+                
+                <!-- Mobile View Toggle -->
+                <div class="md:hidden flex bg-gray-900/80 border border-gray-700/50 p-1 rounded-lg w-fit">
+                    <button id="mobile-view-focus" class="px-4 py-1.5 rounded-md text-sm font-bold bg-gray-700 text-white shadow transition-all">Focus</button>
+                    <button id="mobile-view-grid" class="px-4 py-1.5 rounded-md text-sm font-bold text-gray-400 transition-all">Grid</button>
+                </div>
             </div>
 
-            <!-- Single Page Grid Container (lg:grid-cols-6 ensures 6 columns side-by-side) -->
-            <div id="schedule-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 flex-grow">
-                <!-- Dynamically populated by JS -->
-            </div>
+            <!-- Day Tabs (Only visible in Focus Mode) -->
+            <div class="flex overflow-x-auto gap-3 mb-6 pb-2 hide-scrollbar w-full border-b border-gray-800/50" id="day-tabs"></div>
+
+            <!-- Render Containers -->
+            <!-- 1. Focus Mode Container (Single Day + Break Calculators) -->
+            <div id="focus-container" class="space-y-4 max-w-4xl mx-auto w-full flex-grow"></div>
             
-            <div class="mt-8 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
+            <!-- 2. Grid Mode Container (Full Week) -->
+            <div id="grid-container" class="hide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 flex-grow w-full"></div>
+            
+            <div class="mt-12 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
         </main>
     </div>
-
     <script>
-        let studentData = {}, timetableData = {}, currentUser = null;
+        // State Management
+        let studentData = {}, timetableData = {}, currentUser = null, activeDay = "Monday";
         let notifiedClasses = new Set(), trackerInterval = null, clockInterval = null;
+        let viewMode = 'focus'; // 'focus' or 'grid'
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         
+        // PWA Installation Logic
         let deferredPrompt;
         window.addEventListener('beforeinstallprompt', (e) => {
-            e.preventDefault(); 
-            deferredPrompt = e; 
+            e.preventDefault(); deferredPrompt = e; 
             document.getElementById('install-banner').classList.remove('hide');
         });
         document.getElementById('close-install-btn').addEventListener('click', () => { document.getElementById('install-banner').classList.add('hide'); });
         document.getElementById('install-btn').addEventListener('click', async () => {
             document.getElementById('install-banner').classList.add('hide'); 
-            if (deferredPrompt) {
-                deferredPrompt.prompt(); 
-                await deferredPrompt.userChoice;
-                deferredPrompt = null; 
-            }
+            if (deferredPrompt) { deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; }
         });
+
+        // Toast Notification System
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-msg').innerText = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
 
         async function initApp() {
             try {
                 const [studentRes, timetableRes] = await Promise.all([ fetch('students.json'), fetch('timetable.json') ]);
-                studentData = await studentRes.json();
-                timetableData = await timetableRes.json();
+                studentData = await studentRes.json(); timetableData = await timetableRes.json();
                 
+                const todayStr = daysOfWeek[new Date().getDay()];
+                if (todayStr !== "Sunday") activeDay = todayStr;
+
                 const savedRoll = localStorage.getItem('iiits_saved_roll');
                 if (savedRoll) {
                     const student = Object.values(studentData).find(s => s.Roll && s.Roll.toUpperCase() === savedRoll);
                     if (student) {
-                        currentUser = student;
-                        currentUser.CleanName = sanitizeName(currentUser.Name);
-                        loadDashboard();
-                        return; 
+                        currentUser = student; currentUser.CleanName = sanitizeName(currentUser.Name);
+                        loadDashboard(); return; 
                     }
                 }
                 document.getElementById('login-screen').classList.remove('hide');
-            } catch (err) { console.error("Failed to load JSON files.", err); }
+            } catch (err) { console.error("JSON Load Error", err); }
         }
 
         function sanitizeName(rawName) {
             if (!rawName) return "Student";
-            let name = rawName.replace(/S202\d{7}/gi, ''); 
-            name = name.replace(/\S+@\S+\.\S+/g, ''); 
-            name = name.replace(/\b(ECE|CSE|AI&DS|AIDS|Sec\d+)\b/gi, ''); 
-            name = name.replace(/[^a-zA-Z\s]/g, '').replace(/\s+/g, ' ').trim(); 
+            let name = rawName.replace(/S202\d{7}/gi, '').replace(/\S+@\S+\.\S+/g, '').replace(/\b(ECE|CSE|AI&DS|AIDS|Sec\d+)\b/gi, '').replace(/[^a-zA-Z\s]/g, '').replace(/\s+/g, ' ').trim(); 
             return name || "Student";
         }
 
@@ -198,16 +253,13 @@
                 const searchName = rawInput.substring(1).toLowerCase().trim();
                 student = Object.values(studentData).find(s => s.Name && sanitizeName(s.Name).toLowerCase().includes(searchName));
             } else {
-                const rollInput = rawInput.toUpperCase();
-                student = Object.values(studentData).find(s => s.Roll && s.Roll.toUpperCase() === rollInput);
+                student = Object.values(studentData).find(s => s.Roll && s.Roll.toUpperCase() === rawInput.toUpperCase());
             }
             
             if (student) {
-                currentUser = student;
-                currentUser.CleanName = sanitizeName(currentUser.Name); 
+                currentUser = student; currentUser.CleanName = sanitizeName(currentUser.Name); 
                 if (!rawInput.startsWith('?')) localStorage.setItem('iiits_saved_roll', currentUser.Roll);
-                errorMsg.classList.add('hide');
-                loadDashboard();
+                errorMsg.classList.add('hide'); loadDashboard();
             } else {
                 errorMsg.innerText = rawInput.startsWith('?') ? "Secret lookup failed: Name not found." : "Roll number not found.";
                 errorMsg.classList.remove('hide');
@@ -215,18 +267,55 @@
         });
 
         document.getElementById('logout-btn').addEventListener('click', () => {
-            currentUser = null;
-            localStorage.removeItem('iiits_saved_roll');
-            document.getElementById('dashboard-screen').classList.add('hide');
-            document.getElementById('login-screen').classList.remove('hide');
-            document.getElementById('roll-input').value = '';
-            if(trackerInterval) clearInterval(trackerInterval);
-            if(clockInterval) clearInterval(clockInterval);
+            currentUser = null; localStorage.removeItem('iiits_saved_roll');
+            document.getElementById('dashboard-screen').classList.add('hide'); document.getElementById('login-screen').classList.remove('hide'); document.getElementById('roll-input').value = '';
+            clearInterval(trackerInterval); clearInterval(clockInterval);
         });
 
-        function updateClock() {
-            document.getElementById('live-clock').innerText = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        // View Mode Toggle Logic
+        function setViewMode(mode) {
+            viewMode = mode;
+            const isFocus = mode === 'focus';
+            
+            // Desktop buttons
+            document.getElementById('view-focus-btn').className = `px-4 py-1.5 rounded-md text-sm font-bold transition-all ${isFocus ? 'bg-gray-700 text-white shadow' : 'text-gray-400 hover:text-white'}`;
+            document.getElementById('view-grid-btn').className = `px-4 py-1.5 rounded-md text-sm font-bold transition-all ${!isFocus ? 'bg-gray-700 text-white shadow' : 'text-gray-400 hover:text-white'}`;
+            // Mobile buttons
+            document.getElementById('mobile-view-focus').className = `px-4 py-1.5 rounded-md text-sm font-bold transition-all ${isFocus ? 'bg-gray-700 text-white shadow' : 'text-gray-400'}`;
+            document.getElementById('mobile-view-grid').className = `px-4 py-1.5 rounded-md text-sm font-bold transition-all ${!isFocus ? 'bg-gray-700 text-white shadow' : 'text-gray-400'}`;
+
+            document.getElementById('day-tabs').style.display = isFocus ? 'flex' : 'none';
+            document.getElementById('focus-container').style.display = isFocus ? 'block' : 'none';
+            document.getElementById('grid-container').style.display = !isFocus ? 'grid' : 'none';
+            
+            renderSchedule();
         }
+        
+        document.getElementById('view-focus-btn').onclick = () => setViewMode('focus');
+        document.getElementById('view-grid-btn').onclick = () => setViewMode('grid');
+        document.getElementById('mobile-view-focus').onclick = () => setViewMode('focus');
+        document.getElementById('mobile-view-grid').onclick = () => setViewMode('grid');
+
+        // Share Schedule (Clipboard API)
+        document.getElementById('share-btn').addEventListener('click', () => {
+            const dayData = timetableData["UG1"]?.[activeDay];
+            if(!dayData) return showToast("No classes to share!");
+            
+            let shareText = `📚 ${currentUser.CleanName.split(' ')[0]}'s Schedule (${activeDay})\n`;
+            let hasClasses = false;
+
+            Object.keys(dayData).forEach(timeStr => {
+                const myClass = dayData[timeStr].find(slot => slot.branch === "ALL" || slot.branch === currentUser.Branch || Object.values(currentUser.Sections).includes(slot.section));
+                if (myClass) {
+                    hasClasses = true;
+                    shareText += `\n🕒 ${timeStr}\n📖 ${myClass.course} ${myClass.section || ''} | 📍 ${myClass.room}`;
+                }
+            });
+
+            if(!hasClasses) shareText += "\nFree day! 🎉";
+            
+            navigator.clipboard.writeText(shareText).then(() => showToast("Schedule Copied!"));
+        });
 
         function loadDashboard() {
             document.getElementById('login-screen').classList.add('hide');
@@ -234,24 +323,17 @@
             document.getElementById('user-name').innerText = currentUser.CleanName;
             document.getElementById('user-details').innerText = `${currentUser.Roll} • ${currentUser.Branch}`;
 
-            if(clockInterval) clearInterval(clockInterval);
-            updateClock();
-            clockInterval = setInterval(updateClock, 1000);
+            clearInterval(clockInterval);
+            clockInterval = setInterval(() => {
+                document.getElementById('live-clock').innerText = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            }, 1000);
 
-            updateGreeting();
-            renderSchedule();
+            setViewMode(viewMode); // Renders everything
             
-            if(trackerInterval) clearInterval(trackerInterval);
+            clearInterval(trackerInterval);
             trackerInterval = setInterval(() => {
-                checkUpcomingClasses();
-                renderSchedule(); 
+                checkUpcomingClasses(); renderSchedule(); 
             }, 60000);
-        }
-
-        function updateGreeting() {
-            const hour = new Date().getHours();
-            let greeting = hour < 12 ? "Good Morning" : hour < 17 ? "Good Afternoon" : "Good Evening";
-            document.getElementById('greeting-text').innerText = `${greeting}, ${currentUser.CleanName.split(' ')[0]}.`;
         }
 
         function parseTime(timeStr) {
@@ -264,9 +346,15 @@
             return d;
         }
 
+        function formatDuration(mins) {
+            if (mins < 60) return `${mins} mins`;
+            const h = Math.floor(mins / 60); const m = mins % 60;
+            return m === 0 ? `${h} hr` : `${h} hr ${m} mins`;
+        }
+
         function checkUpcomingClasses() {
             if (Notification.permission !== "granted") return;
-            const currentDayStr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][new Date().getDay()];
+            const currentDayStr = daysOfWeek[new Date().getDay()];
             const dayData = timetableData["UG1"]?.[currentDayStr];
             if (!dayData) return;
 
@@ -275,13 +363,7 @@
                 const diffMinutes = (startTime - new Date()) / 60000;
                 
                 if (diffMinutes > 0 && diffMinutes <= 10) {
-                    const myClass = dayData[timeStr].find(slot => {
-                        if (slot.branch === "ALL" || slot.branch === currentUser.Branch) return true;
-                        for (const [courseGrp, sec] of Object.entries(currentUser.Sections)) {
-                            if (slot.course === courseGrp || (slot.base && courseGrp.includes(slot.base))) return slot.section === sec;
-                        }
-                        return false;
-                    });
+                    const myClass = dayData[timeStr].find(slot => slot.branch === "ALL" || slot.branch === currentUser.Branch || Object.values(currentUser.Sections).includes(slot.section));
                     if (myClass && !notifiedClasses.has(timeStr)) {
                         new Notification("Upcoming Class", { body: `${myClass.course} starts in 10 minutes at ${myClass.room}.`, icon: "icon.png" });
                         notifiedClasses.add(timeStr);
@@ -290,31 +372,139 @@
             });
         }
 
+        // Shared Style Dictionary
+        const colors = {
+            "CP": "bg-blue-900/20 border-blue-500/30 text-blue-300 shadow-[inset_0_0_20px_rgba(59,130,246,0.05)]",
+            "DLD": "bg-red-900/20 border-red-500/30 text-red-300 shadow-[inset_0_0_20px_rgba(239,68,68,0.05)]",
+            "DSMA": "bg-emerald-900/20 border-emerald-500/30 text-emerald-300 shadow-[inset_0_0_20px_rgba(16,185,129,0.05)]",
+            "OCW": "bg-purple-900/20 border-purple-500/30 text-purple-300 shadow-[inset_0_0_20px_rgba(168,85,247,0.05)]",
+            "EE": "bg-amber-900/20 border-amber-500/30 text-amber-300 shadow-[inset_0_0_20px_rgba(245,158,11,0.05)]",
+            "EDL": "bg-pink-900/20 border-pink-500/30 text-pink-300 shadow-[inset_0_0_20px_rgba(236,72,153,0.05)]",
+            "FHVE": "bg-indigo-900/20 border-indigo-500/30 text-indigo-300 shadow-[inset_0_0_20px_rgba(99,102,241,0.05)]"
+        };
+
         function renderSchedule() {
-            const container = document.getElementById('schedule-container');
-            container.innerHTML = '';
+            const hour = new Date().getHours();
+            document.getElementById('greeting-text').innerText = `${hour < 12 ? "Good Morning" : hour < 17 ? "Good Afternoon" : "Good Evening"}, ${currentUser.CleanName.split(' ')[0]}.`;
             
-            const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            renderTabs();
+            if (viewMode === 'focus') renderFocusMode();
+            else renderGridMode();
+        }
+
+        function renderTabs() {
+            const tabsContainer = document.getElementById('day-tabs');
+            tabsContainer.innerHTML = '';
+            ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].forEach(day => {
+                const isActive = day === activeDay;
+                const btn = document.createElement('button');
+                btn.className = `px-6 py-2.5 rounded-xl whitespace-nowrap font-bold text-sm transition-all flex-shrink-0 ${isActive ? 'bg-brand-600 text-white shadow-[0_4px_20px_rgba(37,99,235,0.4)] border border-brand-400/50' : 'glass-card text-gray-400 hover:bg-white/10 hover:text-white'}`;
+                btn.innerText = day;
+                btn.onclick = () => { activeDay = day; renderSchedule(); };
+                tabsContainer.appendChild(btn);
+            });
+        }
+
+        function getMyClassForSlot(slots) {
+            return slots.find(slot => slot.branch === "ALL" || slot.branch === currentUser.Branch || Object.values(currentUser.Sections).includes(slot.section));
+        }
+
+        // --- FOCUS MODE (With Free Time Breakdown) ---
+        function renderFocusMode() {
+            const container = document.getElementById('focus-container');
+            container.innerHTML = '';
+            const dayData = timetableData["UG1"]?.[activeDay];
+            
+            if (!dayData) {
+                container.innerHTML = `<div class="glass-card p-12 text-center text-gray-500 font-medium rounded-2xl border-dashed animate-slide-up flex flex-col items-center"><i class="fa-solid fa-mug-hot text-4xl mb-4 text-gray-700"></i>No schedule found for this day.</div>`;
+                document.getElementById('status-text').innerText = "Take a break, you have no classes."; return;
+            }
+
             const now = new Date();
-            const currentDayStr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][now.getDay()];
+            const isToday = activeDay === daysOfWeek[now.getDay()];
+            let classCount = 0;
+            let lastClassEndTime = null;
+            let nextClassFound = false;
+
+            Object.keys(dayData).forEach((timeStr, index) => {
+                const myClass = getMyClassForSlot(dayData[timeStr]);
+                if (!myClass) return;
+
+                const [startStr, endStr] = timeStr.split(' - ');
+                const startTime = parseTime(startStr), endTime = parseTime(endStr);
+
+                // Smart Break Calculator logic
+                if (lastClassEndTime && startTime > lastClassEndTime) {
+                    const breakMins = (startTime - lastClassEndTime) / 60000;
+                    container.innerHTML += `
+                        <div class="flex items-center gap-4 py-2 opacity-60 ml-2 md:ml-12 animate-slide-up" style="animation-delay: ${index * 100}ms">
+                            <div class="h-12 w-px bg-dashed border-l-2 border-dashed border-gray-600"></div>
+                            <span class="text-xs font-mono font-bold text-brand-400 bg-brand-900/20 px-3 py-1 rounded-full border border-brand-500/20"><i class="fa-solid fa-mug-hot mr-2"></i>Break: ${formatDuration(breakMins)}</span>
+                        </div>
+                    `;
+                }
+
+                classCount++;
+                lastClassEndTime = endTime;
+
+                let style = colors[myClass.base] || "bg-gray-800/50 border-gray-600/50 text-gray-300";
+                let statusBadge = '', cardOutline = 'border-transparent', progressHTML = '';
+                
+                if (isToday) {
+                    if (now >= startTime && now <= endTime) {
+                        const totalMins = (endTime - startTime) / 60000;
+                        const percentage = Math.min(100, Math.max(0, ((now - startTime) / 60000) / totalMins * 100));
+                        statusBadge = `<span class="absolute -top-3 -right-2 bg-gradient-to-r from-emerald-400 to-green-500 text-gray-900 text-[10px] tracking-widest font-extrabold px-3 py-1 rounded-full shadow-[0_0_15px_rgba(52,211,153,0.5)] animate-pulse-slow z-10">LIVE</span>`;
+                        cardOutline = "border-emerald-500/50 shadow-[0_0_30px_rgba(16,185,129,0.15)] bg-emerald-900/10";
+                        progressHTML = `<div class="mt-4 w-full bg-gray-900 rounded-full h-1.5 overflow-hidden border border-gray-700/50"><div class="bg-gradient-to-r from-emerald-500 to-green-400 h-1.5 rounded-full" style="width: ${percentage}%"></div></div>`;
+                    } else if (now < startTime && !nextClassFound) {
+                        statusBadge = `<span class="absolute -top-3 -right-2 bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 text-[10px] tracking-widest font-extrabold px-3 py-1 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.4)] z-10">NEXT</span>`;
+                        cardOutline = "border-amber-500/40 bg-amber-900/5"; nextClassFound = true;
+                    }
+                }
+                
+                container.innerHTML += `
+                    <div class="glass-panel glass-card rounded-2xl p-5 md:p-6 relative transition-all duration-300 hover:bg-white/5 border ${cardOutline} animate-slide-up" style="animation-delay: ${index * 100}ms">
+                        ${statusBadge}
+                        <div class="flex flex-col md:flex-row md:items-center gap-4">
+                            <div class="w-48 flex-shrink-0 border-b md:border-b-0 md:border-r border-gray-700/50 pb-3 md:pb-0">
+                                <span class="text-base font-bold text-gray-200 block tracking-tight"><i class="fa-regular fa-clock mr-2 text-brand-400"></i>${startStr}</span>
+                                <span class="text-xs text-gray-500 font-medium block ml-6 mt-0.5">Until ${endStr}</span>
+                            </div>
+                            <div class="flex-grow">
+                                <div class="inline-block px-5 py-3 rounded-xl border ${style} w-full md:w-auto relative backdrop-blur-sm">
+                                    <div class="flex items-center justify-between gap-8">
+                                        <span class="font-extrabold text-lg tracking-wide">${myClass.course} ${myClass.section || ''}</span>
+                                        <div class="flex items-center bg-gray-950/50 border border-white/5 px-3 py-1.5 rounded-lg text-sm font-mono font-semibold text-gray-300 shadow-inner">
+                                            <i class="fa-solid fa-door-open mr-2 text-brand-400/80"></i>${myClass.room}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        ${progressHTML}
+                    </div>
+                `;
+            });
+
+            document.getElementById('status-text').innerText = classCount === 0 ? "Take a break, your schedule is clear." : `You have ${classCount} class${classCount > 1 ? 'es' : ''} scheduled for ${activeDay}.`;
+            if (classCount === 0) container.innerHTML = `<div class="glass-card p-12 text-center text-gray-500 font-medium rounded-2xl border-dashed animate-slide-up"><i class="fa-solid fa-mug-hot text-4xl mb-4 text-gray-700"></i><br>No classes scheduled today.</div>`;
+        }
+
+        // --- GRID MODE (Full Week Overview) ---
+        function renderGridMode() {
+            const container = document.getElementById('grid-container');
+            container.innerHTML = '';
             let totalClasses = 0;
+            const now = new Date();
+            const currentDayStr = daysOfWeek[now.getDay()];
 
-            const colors = {
-                "CP": "bg-blue-900/20 border-blue-500/30 text-blue-300",
-                "DLD": "bg-red-900/20 border-red-500/30 text-red-300",
-                "DSMA": "bg-emerald-900/20 border-emerald-500/30 text-emerald-300",
-                "OCW": "bg-purple-900/20 border-purple-500/30 text-purple-300",
-                "EE": "bg-amber-900/20 border-amber-500/30 text-amber-300",
-                "EDL": "bg-pink-900/20 border-pink-500/30 text-pink-300",
-                "FHVE": "bg-indigo-900/20 border-indigo-500/30 text-indigo-300"
-            };
-
-            daysOfWeek.forEach(day => {
+            ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].forEach((day, dayIndex) => {
                 const dayData = timetableData["UG1"]?.[day];
                 const isToday = day === currentDayStr;
                 
                 let dayHTML = `
-                    <div class="glass-panel rounded-2xl p-4 border flex flex-col h-full ${isToday ? 'border-brand-500/60 shadow-[0_0_30px_rgba(59,130,246,0.15)] bg-brand-900/10' : 'border-gray-800/50 hover:border-gray-700/80 transition-colors'}">
+                    <div class="glass-panel rounded-2xl p-4 border flex flex-col h-full animate-slide-up ${isToday ? 'border-brand-500/60 shadow-[0_0_30px_rgba(59,130,246,0.15)] bg-brand-900/10' : 'border-gray-800/50 hover:border-gray-700/80'}" style="animation-delay: ${dayIndex * 50}ms">
                         <div class="flex items-center justify-between mb-4 border-b border-gray-700/50 pb-3">
                             <h3 class="font-extrabold text-lg ${isToday ? 'text-brand-400' : 'text-gray-200'} tracking-tight">${day}</h3>
                             ${isToday ? '<span class="bg-brand-500 text-white text-[9px] font-bold px-2 py-0.5 rounded shadow-[0_0_10px_rgba(59,130,246,0.5)] uppercase tracking-wider animate-pulse-slow">Today</span>' : ''}
@@ -323,52 +513,29 @@
                 `;
 
                 if (!dayData) {
-                    dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No schedule data.</div></div></div>`;
-                    container.innerHTML += dayHTML;
-                    return; 
+                    dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No classes</div></div></div>`;
+                    container.innerHTML += dayHTML; return; 
                 }
 
                 let classCount = 0;
                 let nextClassFound = false;
 
                 Object.keys(dayData).forEach(timeStr => {
-                    const slots = dayData[timeStr];
-                    const [startStr, endStr] = timeStr.split(' - ');
-                    const startTime = parseTime(startStr), endTime = parseTime(endStr);
-
-                    const myClass = slots.find(slot => {
-                        if (slot.branch === "ALL" || slot.branch === currentUser.Branch) return true;
-                        for (const [courseGrp, sec] of Object.entries(currentUser.Sections)) {
-                            if (slot.course === courseGrp || (slot.base && courseGrp.includes(slot.base))) return slot.section === sec;
-                        }
-                        return false;
-                    });
-
+                    const myClass = getMyClassForSlot(dayData[timeStr]);
                     if (myClass) {
-                        classCount++;
-                        totalClasses++;
+                        classCount++; totalClasses++;
+                        const startTime = parseTime(timeStr.split(' - ')[0]), endTime = parseTime(timeStr.split(' - ')[1]);
                         let style = colors[myClass.base] || "bg-gray-800/50 border-gray-600/50 text-gray-300";
                         let statusBadge = '', cardOutline = 'border-transparent', progressHTML = '';
                         
                         if (isToday) {
                             if (now >= startTime && now <= endTime) {
-                                const totalMins = (endTime - startTime) / 60000;
-                                const percentage = Math.min(100, Math.max(0, ((now - startTime) / 60000) / totalMins * 100));
-                                const minsLeft = Math.ceil(totalMins - ((now - startTime) / 60000));
-                                
                                 statusBadge = `<span class="absolute -top-2.5 -right-2 bg-gradient-to-r from-emerald-400 to-green-500 text-gray-900 text-[9px] tracking-widest font-extrabold px-2 py-0.5 rounded-full shadow-[0_0_10px_rgba(52,211,153,0.5)] z-10">LIVE</span>`;
-                                cardOutline = "border-emerald-500/50 shadow-[0_0_20px_rgba(16,185,129,0.1)] bg-emerald-900/20";
-                                
-                                progressHTML = `
-                                    <div class="mt-3 w-full bg-gray-900 rounded-full h-1 overflow-hidden border border-gray-700/50">
-                                        <div class="bg-gradient-to-r from-emerald-500 to-green-400 h-1 rounded-full transition-all duration-1000" style="width: ${percentage}%"></div>
-                                    </div>
-                                    <div class="text-right text-[10px] text-emerald-400 mt-1 font-mono font-bold">${minsLeft}m left</div>
-                                `;
+                                cardOutline = "border-emerald-500/50 bg-emerald-900/20";
+                                progressHTML = `<div class="mt-3 w-full bg-gray-900 rounded-full h-1 overflow-hidden border border-gray-700/50"><div class="bg-gradient-to-r from-emerald-500 to-green-400 h-1 rounded-full" style="width: ${Math.min(100, Math.max(0, ((now - startTime) / 60000) / ((endTime - startTime) / 60000) * 100))}%"></div></div>`;
                             } else if (now < startTime && !nextClassFound) {
                                 statusBadge = `<span class="absolute -top-2.5 -right-2 bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 text-[9px] tracking-widest font-extrabold px-2 py-0.5 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.4)] z-10">NEXT</span>`;
-                                cardOutline = "border-amber-500/40 bg-amber-900/10";
-                                nextClassFound = true;
+                                cardOutline = "border-amber-500/40 bg-amber-900/10"; nextClassFound = true;
                             }
                         }
                         
@@ -379,30 +546,21 @@
                                     <span class="font-extrabold text-sm tracking-wide leading-tight">${myClass.course} ${myClass.section || ''}</span>
                                     <span class="text-[9px] font-mono bg-black/50 border border-white/10 px-1.5 py-0.5 rounded text-gray-300 flex-shrink-0">${myClass.room}</span>
                                 </div>
-                                <div class="text-[11px] font-medium opacity-70 flex items-center">
-                                    <i class="fa-regular fa-clock mr-1.5"></i> ${startStr} - ${endStr}
-                                </div>
+                                <div class="text-[11px] font-medium opacity-70 flex items-center"><i class="fa-regular fa-clock mr-1.5"></i> ${timeStr.replace(/ AM| PM/g, '')}</div>
                                 ${progressHTML}
                             </div>
                         `;
                     }
                 });
 
-                if (classCount === 0) {
-                    dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No classes scheduled.</div>`;
-                }
-                
+                if (classCount === 0) dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No classes</div>`;
                 dayHTML += `</div></div>`;
                 container.innerHTML += dayHTML;
             });
-
             document.getElementById('status-text').innerText = `You have ${totalClasses} total classes scheduled for this week.`;
         }
         
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(err => console.log('SW Registration failed:', err)); });
-        }
-        
+        if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(e => {}));
         initApp();
     </script>
 </body>
