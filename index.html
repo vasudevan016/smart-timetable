@@ -28,7 +28,7 @@
                     },
                     keyframes: {
                         fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
-                        slideUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(15px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
                         slideUpBanner: { '0%': { opacity: '0', transform: 'translateY(100px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
                         blob: { '0%': { transform: 'translate(0px, 0px) scale(1)' }, '100%': { transform: 'translate(30px, -50px) scale(1.1)' } }
                     }
@@ -37,17 +37,8 @@
         }
     </script>
     <style>
-        body {
-            background-color: #030712;
-            overflow-x: hidden;
-        }
-        /* Animated Ambient Background */
-        .ambient-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
-            z-index: -1; overflow: hidden;
-            background: #030712;
-        }
+        body { background-color: #030712; overflow-x: hidden; }
+        .ambient-bg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; overflow: hidden; background: #030712; }
         .blob-1 { position: absolute; top: -10%; left: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(60px); animation: blob 15s infinite alternate; }
         .blob-2 { position: absolute; bottom: -20%; right: -10%; width: 60vw; height: 60vw; background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(80px); animation: blob 12s infinite alternate-reverse; }
         
@@ -58,31 +49,22 @@
         .hide { display: none !important; }
         .hide-scrollbar::-webkit-scrollbar { display: none; }
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-        
-        /* Custom Toggle Switch */
-        .toggle-checkbox:checked { right: 0; border-color: #3b82f6; }
-        .toggle-checkbox:checked + .toggle-label { background-color: #3b82f6; }
-        
-        /* Toast Notification */
         #toast { transition: opacity 0.3s, transform 0.3s; transform: translateY(20px); opacity: 0; }
         #toast.show { transform: translateY(0); opacity: 1; }
     </style>
 </head>
 <body class="text-gray-100 min-h-screen font-sans antialiased flex flex-col selection:bg-brand-500 selection:text-white">
 
-    <!-- Animated Background -->
     <div class="ambient-bg">
         <div class="blob-1"></div>
         <div class="blob-2"></div>
     </div>
 
-    <!-- Toast Notification -->
     <div id="toast" class="fixed bottom-20 left-1/2 -translate-x-1/2 z-[200] glass-panel px-6 py-3 rounded-full flex items-center gap-3 border-brand-500/50 pointer-events-none">
         <i class="fa-solid fa-circle-check text-emerald-400"></i>
         <span id="toast-msg" class="text-sm font-bold tracking-wide"></span>
     </div>
 
-    <!-- PWA Banner -->
     <div id="install-banner" class="hide fixed bottom-4 left-4 right-4 md:left-1/2 md:-translate-x-1/2 md:w-[400px] z-[100] glass-panel rounded-2xl p-4 flex items-center justify-between shadow-2xl border border-brand-500/30 animate-slide-up-banner bg-gray-900/90">
         <div class="flex items-center gap-3">
             <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center shadow-lg flex-shrink-0">
@@ -99,7 +81,6 @@
         </div>
     </div>
 
-    <!-- Login Screen -->
     <div id="login-screen" class="hide flex flex-col items-center justify-center min-h-screen px-4 animate-fade-in relative z-10">
         <div class="glass-panel p-8 md:p-10 rounded-3xl w-full max-w-md text-center border-t border-t-brand-500/50 relative overflow-hidden shadow-2xl">
             <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-brand-500 rounded-b-full shadow-[0_0_20px_rgba(59,130,246,0.8)]"></div>
@@ -124,10 +105,8 @@
         <div class="absolute bottom-8 text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
     </div>
 
-    <!-- Dashboard Screen -->
     <div id="dashboard-screen" class="hide flex flex-col min-h-screen animate-fade-in z-10">
         
-        <!-- Premium Navbar -->
         <nav class="glass-panel sticky top-0 z-50 px-4 md:px-8 py-3 flex justify-between items-center border-b border-gray-800/50">
             <div class="flex items-center gap-4">
                 <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center shadow-lg relative group cursor-pointer" id="share-btn">
@@ -140,7 +119,6 @@
                 </div>
             </div>
 
-            <!-- View Mode Toggle -->
             <div class="hidden md:flex bg-gray-900/80 border border-gray-700/50 p-1 rounded-lg">
                 <button id="view-focus-btn" class="px-4 py-1.5 rounded-md text-sm font-bold bg-gray-700 text-white shadow transition-all">Focus Mode</button>
                 <button id="view-grid-btn" class="px-4 py-1.5 rounded-md text-sm font-bold text-gray-400 hover:text-white transition-all">Grid Mode</button>
@@ -160,34 +138,28 @@
             </div>
         </nav>
 
-        <!-- Main Content Area -->
         <main class="flex-grow p-4 md:p-6 lg:p-8 w-full max-w-[100%] mx-auto flex flex-col">
             
-            <!-- Dynamic Header -->
             <div class="mb-6 mt-2 flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
                     <h2 id="greeting-text" class="text-3xl md:text-4xl font-extrabold tracking-tight mb-1"></h2>
                     <p id="status-text" class="text-gray-400 font-medium"></p>
                 </div>
                 
-                <!-- Mobile View Toggle -->
                 <div class="md:hidden flex bg-gray-900/80 border border-gray-700/50 p-1 rounded-lg w-fit">
                     <button id="mobile-view-focus" class="px-4 py-1.5 rounded-md text-sm font-bold bg-gray-700 text-white shadow transition-all">Focus</button>
                     <button id="mobile-view-grid" class="px-4 py-1.5 rounded-md text-sm font-bold text-gray-400 transition-all">Grid</button>
                 </div>
             </div>
 
-            <!-- Day Tabs (Only visible in Focus Mode) -->
             <div class="flex overflow-x-auto gap-3 mb-6 pb-2 hide-scrollbar w-full border-b border-gray-800/50" id="day-tabs"></div>
 
-            <!-- Render Containers -->
-            <!-- 1. Focus Mode Container (Single Day + Break Calculators) -->
             <div id="focus-container" class="space-y-4 max-w-4xl mx-auto w-full flex-grow"></div>
             
-            <!-- 2. Grid Mode Container (Full Week) -->
-            <div id="grid-container" class="hide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 flex-grow w-full"></div>
+            <!-- Compact Grid Mode Container -->
+            <div id="grid-container" class="hide grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2 flex-grow w-full h-full"></div>
             
-            <div class="mt-12 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
+            <div class="mt-8 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
         </main>
     </div>
     <script>
