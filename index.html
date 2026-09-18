@@ -44,6 +44,10 @@
             border: 1px solid rgba(255, 255, 255, 0.08);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         }
+        .glass-card {
+            background: linear-gradient(145deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.06);
+        }
         .hide { display: none !important; }
         .hide-scrollbar::-webkit-scrollbar { display: none; }
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -119,18 +123,19 @@
             </div>
         </nav>
 
-        <main class="flex-grow p-4 md:p-8 max-w-7xl mx-auto w-full flex flex-col">
+        <!-- Widened container (w-full px-4) to fit 6 columns perfectly -->
+        <main class="flex-grow p-4 md:p-6 w-full max-w-[100%] mx-auto flex flex-col">
             <div class="mb-6 mt-2">
                 <h2 id="greeting-text" class="text-3xl md:text-4xl font-extrabold tracking-tight mb-1"></h2>
                 <p id="status-text" class="text-gray-400 font-medium"></p>
             </div>
 
-            <!-- Single Page Grid Container -->
-            <div id="schedule-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex-grow">
+            <!-- Single Page Grid Container (lg:grid-cols-6 ensures 6 columns side-by-side) -->
+            <div id="schedule-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 flex-grow">
                 <!-- Dynamically populated by JS -->
             </div>
             
-            <div class="mt-12 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
+            <div class="mt-8 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
         </main>
     </div>
 
@@ -138,7 +143,6 @@
         let studentData = {}, timetableData = {}, currentUser = null;
         let notifiedClasses = new Set(), trackerInterval = null, clockInterval = null;
         
-        // PWA Installation Logic
         let deferredPrompt;
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault(); 
@@ -190,7 +194,6 @@
             const errorMsg = document.getElementById('error-msg');
             let student = null;
 
-            // SECRET PREFIX SEARCH
             if (rawInput.startsWith('?')) {
                 const searchName = rawInput.substring(1).toLowerCase().trim();
                 student = Object.values(studentData).find(s => s.Name && sanitizeName(s.Name).toLowerCase().includes(searchName));
@@ -241,7 +244,7 @@
             if(trackerInterval) clearInterval(trackerInterval);
             trackerInterval = setInterval(() => {
                 checkUpcomingClasses();
-                renderSchedule(); // Real-time progress bar updates
+                renderSchedule(); 
             }, 60000);
         }
 
@@ -310,18 +313,17 @@
                 const dayData = timetableData["UG1"]?.[day];
                 const isToday = day === currentDayStr;
                 
-                // Day Column Card
                 let dayHTML = `
-                    <div class="glass-panel rounded-2xl p-5 border flex flex-col h-full ${isToday ? 'border-brand-500/60 shadow-[0_0_30px_rgba(59,130,246,0.15)] bg-brand-900/10' : 'border-gray-800/50 hover:border-gray-700/80 transition-colors'}">
+                    <div class="glass-panel rounded-2xl p-4 border flex flex-col h-full ${isToday ? 'border-brand-500/60 shadow-[0_0_30px_rgba(59,130,246,0.15)] bg-brand-900/10' : 'border-gray-800/50 hover:border-gray-700/80 transition-colors'}">
                         <div class="flex items-center justify-between mb-4 border-b border-gray-700/50 pb-3">
-                            <h3 class="font-extrabold text-xl ${isToday ? 'text-brand-400' : 'text-gray-200'} tracking-tight">${day}</h3>
-                            ${isToday ? '<span class="bg-brand-500 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-[0_0_10px_rgba(59,130,246,0.5)] uppercase tracking-wider animate-pulse-slow">Today</span>' : ''}
+                            <h3 class="font-extrabold text-lg ${isToday ? 'text-brand-400' : 'text-gray-200'} tracking-tight">${day}</h3>
+                            ${isToday ? '<span class="bg-brand-500 text-white text-[9px] font-bold px-2 py-0.5 rounded shadow-[0_0_10px_rgba(59,130,246,0.5)] uppercase tracking-wider animate-pulse-slow">Today</span>' : ''}
                         </div>
                         <div class="space-y-3 flex-grow">
                 `;
 
                 if (!dayData) {
-                    dayHTML += `<div class="p-4 text-center text-gray-500 text-sm font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No schedule data.</div></div></div>`;
+                    dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No schedule data.</div></div></div>`;
                     container.innerHTML += dayHTML;
                     return; 
                 }
@@ -370,15 +372,14 @@
                             }
                         }
                         
-                        // Compact Class Card
                         dayHTML += `
-                            <div class="p-3.5 rounded-xl border ${style} ${cardOutline} relative backdrop-blur-md">
+                            <div class="p-3 rounded-xl border ${style} ${cardOutline} relative backdrop-blur-md">
                                 ${statusBadge}
-                                <div class="flex justify-between items-start mb-1.5 gap-2">
+                                <div class="flex justify-between items-start mb-1 gap-2">
                                     <span class="font-extrabold text-sm tracking-wide leading-tight">${myClass.course} ${myClass.section || ''}</span>
-                                    <span class="text-[10px] font-mono bg-black/50 border border-white/10 px-1.5 py-0.5 rounded text-gray-300 flex-shrink-0">${myClass.room}</span>
+                                    <span class="text-[9px] font-mono bg-black/50 border border-white/10 px-1.5 py-0.5 rounded text-gray-300 flex-shrink-0">${myClass.room}</span>
                                 </div>
-                                <div class="text-xs font-medium opacity-70 flex items-center">
+                                <div class="text-[11px] font-medium opacity-70 flex items-center">
                                     <i class="fa-regular fa-clock mr-1.5"></i> ${startStr} - ${endStr}
                                 </div>
                                 ${progressHTML}
@@ -388,7 +389,7 @@
                 });
 
                 if (classCount === 0) {
-                    dayHTML += `<div class="p-4 text-center text-gray-500 text-sm font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No classes scheduled.</div>`;
+                    dayHTML += `<div class="p-4 text-center text-gray-500 text-xs font-medium rounded-xl border border-dashed border-gray-700 bg-black/20 h-full flex items-center justify-center">No classes scheduled.</div>`;
                 }
                 
                 dayHTML += `</div></div>`;
