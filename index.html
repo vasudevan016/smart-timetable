@@ -140,7 +140,7 @@
 
         <main class="flex-grow p-4 md:p-6 lg:p-8 w-full max-w-[100%] mx-auto flex flex-col">
             
-            <div class="mb-6 mt-2 flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div class="mb-5 mt-2 flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
                     <h2 id="greeting-text" class="text-3xl md:text-4xl font-extrabold tracking-tight mb-1"></h2>
                     <p id="status-text" class="text-gray-400 font-medium"></p>
@@ -152,9 +152,10 @@
                 </div>
             </div>
 
-            <div class="flex overflow-x-auto gap-3 mb-6 pb-2 hide-scrollbar w-full border-b border-gray-800/50" id="day-tabs"></div>
+            <div class="flex overflow-x-auto gap-2 md:gap-3 mb-5 pb-2 hide-scrollbar w-full border-b border-gray-800/50" id="day-tabs"></div>
 
-            <div id="focus-container" class="space-y-4 max-w-4xl mx-auto w-full flex-grow"></div>
+            <!-- Redesigned Ultra-Compact Mobile Layout for Focus Container -->
+            <div id="focus-container" class="space-y-2.5 md:space-y-4 max-w-4xl mx-auto w-full flex-grow"></div>
             
             <!-- Compact Grid Mode Container -->
             <div id="grid-container" class="hide grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2 flex-grow w-full h-full"></div>
@@ -162,6 +163,7 @@
             <div class="mt-8 mb-2 text-center text-[11px] text-gray-600 font-bold tracking-[0.2em] opacity-60 uppercase">Vasudevan M</div>
         </main>
     </div>
+
     <script>
         let studentData = {}, timetableData = {}, currentUser = null, activeDay = "Monday";
         let notifiedClasses = new Set(), trackerInterval = null, clockInterval = null;
@@ -267,19 +269,12 @@
         document.getElementById('mobile-view-focus').onclick = () => setViewMode('focus');
         document.getElementById('mobile-view-grid').onclick = () => setViewMode('grid');
 
-        // THE FIX: Bulletproof Section Matching Engine
         function getMyClassForSlot(slots) {
             return slots.find(slot => {
-                // 1. Universal batch classes like FHVE always pass
                 if (slot.branch === "ALL") return true;
-                
-                // 2. Strict Branch Filter (If branch is required but doesn't match, reject immediately)
                 if (slot.branch && slot.branch !== "ALL" && slot.branch !== currentUser.Branch) return false;
-
-                // 3. Strict Section Verification
                 for (const [courseGrp, mySec] of Object.entries(currentUser.Sections)) {
                     if (slot.course === courseGrp || (slot.base && courseGrp.includes(slot.base))) {
-                        // Clean formatting edge cases (e.g., changes "Sec3 Lab" to "sec3")
                         const jsonSec = slot.section ? slot.section.replace(/\s+/g, '').replace(/Lab/i, '').toLowerCase() : "";
                         const targetSec = mySec ? mySec.toLowerCase() : "";
                         return jsonSec === targetSec;
@@ -295,7 +290,7 @@
             let shareText = `📚 ${currentUser.CleanName.split(' ')[0]}'s Schedule (${activeDay})\n`;
             let hasClasses = false;
             Object.keys(dayData).forEach(timeStr => {
-                const myClass = getMyClassForSlot(dayData[timeStr]); // Now uses the repaired engine
+                const myClass = getMyClassForSlot(dayData[timeStr]);
                 if (myClass) { hasClasses = true; shareText += `\n🕒 ${timeStr}\n📖 ${myClass.course} ${myClass.section || ''} | 📍 ${myClass.room}`; }
             });
             if(!hasClasses) shareText += "\nFree day! 🎉";
@@ -344,7 +339,7 @@
                 const diffMinutes = (startTime - new Date()) / 60000;
                 
                 if (diffMinutes > 0 && diffMinutes <= 10) {
-                    const myClass = getMyClassForSlot(dayData[timeStr]); // Now uses the repaired engine
+                    const myClass = getMyClassForSlot(dayData[timeStr]);
                     if (myClass && !notifiedClasses.has(timeStr)) {
                         new Notification("Upcoming Class", { body: `${myClass.course} starts in 10 minutes at ${myClass.room}.`, icon: "icon.png" });
                         notifiedClasses.add(timeStr);
@@ -377,20 +372,21 @@
             ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"].forEach(day => {
                 const isActive = day === activeDay;
                 const btn = document.createElement('button');
-                btn.className = `px-6 py-2.5 rounded-xl whitespace-nowrap font-bold text-sm transition-all flex-shrink-0 ${isActive ? 'bg-brand-600 text-white shadow-[0_4px_20px_rgba(37,99,235,0.4)] border border-brand-400/50' : 'glass-card text-gray-400 hover:bg-white/10 hover:text-white'}`;
+                btn.className = `px-5 py-2 md:px-6 md:py-2.5 rounded-xl whitespace-nowrap font-bold text-xs md:text-sm transition-all flex-shrink-0 ${isActive ? 'bg-brand-600 text-white shadow-[0_4px_20px_rgba(37,99,235,0.4)] border border-brand-400/50' : 'glass-card text-gray-400 hover:bg-white/10 hover:text-white'}`;
                 btn.innerText = day;
                 btn.onclick = () => { activeDay = day; renderSchedule(); };
                 tabsContainer.appendChild(btn);
             });
         }
 
+        // REDESIGNED: Ultra-Compact Mobile Layout
         function renderFocusMode() {
             const container = document.getElementById('focus-container');
             container.innerHTML = '';
             const dayData = timetableData["UG1"]?.[activeDay];
             
             if (!dayData) {
-                container.innerHTML = `<div class="glass-card p-12 text-center text-gray-500 font-medium rounded-2xl border-dashed animate-slide-up flex flex-col items-center"><i class="fa-solid fa-mug-hot text-4xl mb-4 text-gray-700"></i>No schedule found for this day.</div>`;
+                container.innerHTML = `<div class="glass-card p-8 text-center text-gray-500 font-medium rounded-xl border-dashed animate-slide-up flex flex-col items-center"><i class="fa-solid fa-mug-hot text-3xl mb-3 text-gray-700"></i>No schedule found for this day.</div>`;
                 document.getElementById('status-text').innerText = "Take a break, you have no classes."; return;
             }
 
@@ -408,9 +404,9 @@
                 if (lastClassEndTime && startTime > lastClassEndTime) {
                     const breakMins = (startTime - lastClassEndTime) / 60000;
                     container.innerHTML += `
-                        <div class="flex items-center gap-4 py-2 opacity-60 ml-2 md:ml-12 animate-slide-up" style="animation-delay: ${index * 100}ms">
-                            <div class="h-12 w-px bg-dashed border-l-2 border-dashed border-gray-600"></div>
-                            <span class="text-xs font-mono font-bold text-brand-400 bg-brand-900/20 px-3 py-1 rounded-full border border-brand-500/20"><i class="fa-solid fa-mug-hot mr-2"></i>Break: ${formatDuration(breakMins)}</span>
+                        <div class="flex items-center gap-3 py-1 opacity-60 ml-8 md:ml-12 animate-slide-up" style="animation-delay: ${index * 100}ms">
+                            <div class="h-6 w-px bg-dashed border-l border-dashed border-gray-500"></div>
+                            <span class="text-[9px] md:text-xs font-mono font-bold text-brand-400 bg-brand-900/20 px-2 py-0.5 rounded-full border border-brand-500/20"><i class="fa-solid fa-mug-hot mr-1.5"></i>Break: ${formatDuration(breakMins)}</span>
                         </div>
                     `;
                 }
@@ -421,29 +417,27 @@
                 if (isToday) {
                     if (now >= startTime && now <= endTime) {
                         const percentage = Math.min(100, Math.max(0, ((now - startTime) / 60000) / ((endTime - startTime) / 60000) * 100));
-                        statusBadge = `<span class="absolute -top-3 -right-2 bg-gradient-to-r from-emerald-400 to-green-500 text-gray-900 text-[10px] tracking-widest font-extrabold px-3 py-1 rounded-full shadow-[0_0_15px_rgba(52,211,153,0.5)] animate-pulse-slow z-10">LIVE</span>`;
-                        cardOutline = "border-emerald-500/50 shadow-[0_0_30px_rgba(16,185,129,0.15)] bg-emerald-900/10";
-                        progressHTML = `<div class="mt-4 w-full bg-gray-900 rounded-full h-1.5 overflow-hidden border border-gray-700/50"><div class="bg-gradient-to-r from-emerald-500 to-green-400 h-1.5 rounded-full" style="width: ${percentage}%"></div></div>`;
+                        statusBadge = `<span class="absolute -top-2 -right-1 bg-gradient-to-r from-emerald-400 to-green-500 text-gray-900 text-[9px] tracking-widest font-extrabold px-2 py-0.5 rounded-full shadow-[0_0_15px_rgba(52,211,153,0.5)] animate-pulse-slow z-10">LIVE</span>`;
+                        cardOutline = "border-emerald-500/50 shadow-[0_0_20px_rgba(16,185,129,0.15)] bg-emerald-900/10";
+                        progressHTML = `<div class="mt-2 w-full bg-gray-900 rounded-full h-1 overflow-hidden border border-gray-700/50"><div class="bg-gradient-to-r from-emerald-500 to-green-400 h-1 rounded-full" style="width: ${percentage}%"></div></div>`;
                     } else if (now < startTime && !nextClassFound) {
-                        statusBadge = `<span class="absolute -top-3 -right-2 bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 text-[10px] tracking-widest font-extrabold px-3 py-1 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.4)] z-10">NEXT</span>`;
+                        statusBadge = `<span class="absolute -top-2 -right-1 bg-gradient-to-r from-amber-400 to-yellow-500 text-gray-900 text-[9px] tracking-widest font-extrabold px-2 py-0.5 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.4)] z-10">NEXT</span>`;
                         cardOutline = "border-amber-500/40 bg-amber-900/5"; nextClassFound = true;
                     }
                 }
                 
                 container.innerHTML += `
-                    <div class="glass-panel glass-card rounded-2xl p-5 md:p-6 relative transition-all duration-300 hover:bg-white/5 border ${cardOutline} animate-slide-up" style="animation-delay: ${index * 100}ms">
+                    <div class="glass-panel glass-card rounded-xl p-3 md:p-4 relative transition-all duration-300 hover:bg-white/5 border ${cardOutline} animate-slide-up" style="animation-delay: ${index * 100}ms">
                         ${statusBadge}
-                        <div class="flex flex-col md:flex-row md:items-center gap-4">
-                            <div class="w-48 flex-shrink-0 border-b md:border-b-0 md:border-r border-gray-700/50 pb-3 md:pb-0">
-                                <span class="text-base font-bold text-gray-200 block tracking-tight"><i class="fa-regular fa-clock mr-2 text-brand-400"></i>${startStr}</span>
-                                <span class="text-xs text-gray-500 font-medium block ml-6 mt-0.5">Until ${endStr}</span>
+                        <div class="flex items-center gap-3 md:gap-5">
+                            <div class="w-20 md:w-28 flex-shrink-0 border-r border-gray-700/50 pr-2 md:pr-4 text-right">
+                                <span class="text-xs md:text-sm font-bold text-gray-200 block tracking-tight">${startStr.replace(/ AM| PM/g, '')}</span>
+                                <span class="text-[9px] md:text-xs text-gray-500 font-medium block mt-0.5">${startStr.slice(-2)} - ${endStr.slice(-2)}</span>
                             </div>
                             <div class="flex-grow">
-                                <div class="inline-block px-5 py-3 rounded-xl border ${style} w-full md:w-auto relative backdrop-blur-sm">
-                                    <div class="flex items-center justify-between gap-8">
-                                        <span class="font-extrabold text-lg tracking-wide">${myClass.course} ${myClass.section || ''}</span>
-                                        <div class="flex items-center bg-gray-950/50 border border-white/5 px-3 py-1.5 rounded-lg text-sm font-mono font-semibold text-gray-300 shadow-inner"><i class="fa-solid fa-door-open mr-2 text-brand-400/80"></i>${myClass.room}</div>
-                                    </div>
+                                <div class="w-full rounded-lg border ${style} px-3 py-2 relative backdrop-blur-sm flex justify-between items-center gap-2">
+                                    <span class="font-extrabold text-xs md:text-sm tracking-wide leading-tight">${myClass.course} ${myClass.section || ''}</span>
+                                    <div class="flex items-center bg-gray-950/50 border border-white/5 px-2 py-1 rounded text-[9px] md:text-xs font-mono font-semibold text-gray-300 shadow-inner whitespace-nowrap"><i class="fa-solid fa-door-open mr-1.5 text-brand-400/80"></i>${myClass.room}</div>
                                 </div>
                             </div>
                         </div>
@@ -453,7 +447,7 @@
             });
 
             document.getElementById('status-text').innerText = classCount === 0 ? "Take a break, your schedule is clear." : `You have ${classCount} class${classCount > 1 ? 'es' : ''} scheduled for ${activeDay}.`;
-            if (classCount === 0) container.innerHTML = `<div class="glass-card p-12 text-center text-gray-500 font-medium rounded-2xl border-dashed animate-slide-up"><i class="fa-solid fa-mug-hot text-4xl mb-4 text-gray-700"></i><br>No classes scheduled today.</div>`;
+            if (classCount === 0) container.innerHTML = `<div class="glass-card p-8 text-center text-gray-500 font-medium rounded-xl border-dashed animate-slide-up"><i class="fa-solid fa-mug-hot text-3xl mb-3 text-gray-700"></i><br>No classes scheduled today.</div>`;
         }
 
         function renderGridMode() {
@@ -524,3 +518,5 @@
         if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(e => {}));
         initApp();
     </script>
+</body>
+</html>
