@@ -1,0 +1,4359 @@
+{
+    "hanish.d25@iiits.in": {
+        "Name": "S20250010056 Devarakonda Hanish Cse Sec1 Syed.T25@Iiits.In",
+        "Roll": "S20250010056",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "syed.t25@iiits.in": {
+        "Name": "S20250020364 Syed Touqir Ece Sec1 Dhanush.A26@Iiits.In",
+        "Roll": "S20250020364",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "dhanush.a26@iiits.in": {
+        "Name": "S20260010004 Aare Dhanush Cse Sec1 Adithyaraj.P26@Iiits.In",
+        "Roll": "S20260010004",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "adithyaraj.p26@iiits.in": {
+        "Name": "S20260010007 Adithya Raj Pawar Cse Sec1 Aditya.C26@Iiits.In",
+        "Roll": "S20260010007",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "aditya.c26@iiits.in": {
+        "Name": "S20260010008 Aditya Chudasama Cse Sec1 Adityarajesh.W26@Iiits.In",
+        "Roll": "S20260010008",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "adityarajesh.w26@iiits.in": {
+        "Name": "S20260010009 Aditya Rajesh Waghdhare Cse Sec1 Krishna.A26@Iiits.In",
+        "Roll": "S20260010009",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "krishna.a26@iiits.in": {
+        "Name": "S20260010011 Agepati Krishna Cse Sec1 Ahmed.A26@Iiits.In",
+        "Roll": "S20260010011",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "ahmed.a26@iiits.in": {
+        "Name": "S20260010012 Ahmed Ali Cse Sec1 Ajeem.B26@Iiits.In",
+        "Roll": "S20260010012",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "ajeem.b26@iiits.in": {
+        "Name": "S20260010013 Ajeem Bagawan Cse Sec1 Yaswanth.A26@Iiits.In",
+        "Roll": "S20260010013",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "yaswanth.a26@iiits.in": {
+        "Name": "S20260010021 Ankoju Yaswanth Sri Ramakrishna Cse Sec1 Divyacharan.A26@Iiits.In",
+        "Roll": "S20260010021",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "divyacharan.a26@iiits.in": {
+        "Name": "S20260010022 Annam Divya Charan Cse Sec1 Anshpawan.B26@Iiits.In",
+        "Roll": "S20260010022",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "anshpawan.b26@iiits.in": {
+        "Name": "S20260010023 Ansh Pawan Borse Cse Sec1 Anuj.M26@Iiits.In",
+        "Roll": "S20260010023",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "anuj.m26@iiits.in": {
+        "Name": "S20260010025 Anuj Mudotiya Cse Sec1 Arnavatul.R26@Iiits.In",
+        "Roll": "S20260010025",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "arnavatul.r26@iiits.in": {
+        "Name": "S20260010026 Arnav Atul Ranshur Cse Sec1 Ashish.M26@Iiits.In",
+        "Roll": "S20260010026",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "ashish.m26@iiits.in": {
+        "Name": "S20260010029 Ashish Meena Cse Sec1 Atulya.V26@Iiits.In",
+        "Roll": "S20260010029",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "atulya.v26@iiits.in": {
+        "Name": "S20260010031 Atulya Vats Cse Sec1 Saiharshith.B26@Iiits.In",
+        "Roll": "S20260010031",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "saiharshith.b26@iiits.in": {
+        "Name": "S20260010035 Banda Sai Harshith Cse Sec1 Susrith.B26@Iiits.In",
+        "Roll": "S20260010035",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "susrith.b26@iiits.in": {
+        "Name": "S20260010036 Bandari Susrith Cse Sec1 Bhavish.P26@Iiits.In",
+        "Roll": "S20260010036",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "bhavish.p26@iiits.in": {
+        "Name": "S20260010039 Bhavish Prasad Cse Sec1 Navadeepsai.B26@Iiits.In",
+        "Roll": "S20260010039",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "navadeepsai.b26@iiits.in": {
+        "Name": "S20260010045 Bongu Navadeep Sai Cse Sec1 Chakhongthaisavio.D26@Iiits.In",
+        "Roll": "S20260010045",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "chakhongthaisavio.d26@iiits.in": {
+        "Name": "S20260010048 Chakhongthai Savio Dhangmei Cse Sec1 Pavankumar.C26@Iiits.In",
+        "Roll": "S20260010048",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "pavankumar.c26@iiits.in": {
+        "Name": "S20260010049 Chalamala Pavan Kumar Cse Sec1 Charanjith.S26@Iiits.In",
+        "Roll": "S20260010049",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "charanjith.s26@iiits.in": {
+        "Name": "S20260010051 Charanjith S Cse Sec1 Chaitanya.C26@Iiits.In",
+        "Roll": "S20260010051",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "chaitanya.c26@iiits.in": {
+        "Name": "S20260010053 Choudavaram Chaitanya Cse Sec1 Saipreethamreddy.D26@Iiits.In",
+        "Roll": "S20260010053",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "saipreethamreddy.d26@iiits.in": {
+        "Name": "S20260010061 Dhande Sai Preetham Reddy Cse Sec1 Umeshchandra.D26@Iiits.In",
+        "Roll": "S20260010061",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "umeshchandra.d26@iiits.in": {
+        "Name": "S20260010064 Doddi Umesh Chandra Cse Sec1 Venkatasaikartikeya.G26@Iiits.In",
+        "Roll": "S20260010064",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "venkatasaikartikeya.g26@iiits.in": {
+        "Name": "S20260010078 Gudimetla Venkata Sai Kartikeya Cse Sec1 Hudaya.S26@Iiits.In",
+        "Roll": "S20260010078",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "hudaya.s26@iiits.in": {
+        "Name": "S20260010083 H Udaya Sankar Cse Sec1 Ishitwakumar.M26@Iiits.In",
+        "Roll": "S20260010083",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "ishitwakumar.m26@iiits.in": {
+        "Name": "S20260010089 Ishitwa Kumar Mondal Cse Sec1 Abhinav.K26@Iiits.In",
+        "Roll": "S20260010089",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "abhinav.k26@iiits.in": {
+        "Name": "S20260010097 K Abhinav Cse Sec1 Vishwadeeprathod.K26@Iiits.In",
+        "Roll": "S20260010097",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "vishwadeeprathod.k26@iiits.in": {
+        "Name": "S20260010098 K Vishwadeep Rathod Cse Sec1 Nishant.K26@Iiits.In",
+        "Roll": "S20260010098",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "nishant.k26@iiits.in": {
+        "Name": "S20260010102 Kambalapally Nishant Cse Sec1 Vitesh.K26@Iiits.In",
+        "Roll": "S20260010102",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "vitesh.k26@iiits.in": {
+        "Name": "S20260010105 Kanduri Vitesh Cse Sec1 Koushikreddy.K26@Iiits.In",
+        "Roll": "S20260010105",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "koushikreddy.k26@iiits.in": {
+        "Name": "S20260010107 Kanthala Koushik Reddy Cse Sec1 Koushik.K26@Iiits.In",
+        "Roll": "S20260010107",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "koushik.k26@iiits.in": {
+        "Name": "S20260010111 Katakam Koushik Cse Sec1 Kavinkrishna.P26@Iiits.In",
+        "Roll": "S20260010111",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "kavinkrishna.p26@iiits.in": {
+        "Name": "S20260010112 Kavin Krishna P Cse Sec1 Kesavan.V26@Iiits.In",
+        "Roll": "S20260010112",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "kesavan.v26@iiits.in": {
+        "Name": "S20260010113 Kesavan V Cse Sec1 Dhanveekrishna.K26@Iiits.In",
+        "Roll": "S20260010113",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "dhanveekrishna.k26@iiits.in": {
+        "Name": "S20260010120 Kondapaka Dhanvee Krishna Cse Sec1 Saismaran.K26@Iiits.In",
+        "Roll": "S20260010120",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "saismaran.k26@iiits.in": {
+        "Name": "S20260010121 Kondapalli Sai Smaran Cse Sec1 Hitarth.K26@Iiits.In",
+        "Roll": "S20260010121",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "hitarth.k26@iiits.in": {
+        "Name": "S20260010125 Kukadiya Hitarth Prakashbhai Cse Sec1 Sreeashishreddy.L26@Iiits.In",
+        "Roll": "S20260010125",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "sreeashishreddy.l26@iiits.in": {
+        "Name": "S20260010132 Leburu Sree Ashish Reddy Cse Sec1 Nvsbhargavaram.L26@Iiits.In",
+        "Roll": "S20260010132",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "nvsbhargavaram.l26@iiits.in": {
+        "Name": "S20260010134 Lingam Nayan Vijaya Sri Bhargava Ramcse Sec1 Bharathkumarreddy.L26@Iiits.In",
+        "Roll": "S20260010134",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "bharathkumarreddy.l26@iiits.in": {
+        "Name": "S20260010135 Lokirevu Bharath Kumar Reddy Cse Sec1 Maanvender.S26@Iiits.In",
+        "Roll": "S20260010135",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "maanvender.s26@iiits.in": {
+        "Name": "S20260010138 Maanvender Singh Cse Sec1 Ssumanthkesav.M26@Iiits.In",
+        "Roll": "S20260010138",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "ssumanthkesav.m26@iiits.in": {
+        "Name": "S20260010139 Macherla Sai Sumanth Kesav Cse Sec1 Sreesanthreddy.M26@Iiits.In",
+        "Roll": "S20260010139",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "sreesanthreddy.m26@iiits.in": {
+        "Name": "S20260010144 Makireddy Sreesanth Reddy Cse Sec1 Mayank.P26@Iiits.In",
+        "Roll": "S20260010144",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "mayank.p26@iiits.in": {
+        "Name": "S20260010153 Mayank Pattanaik Cse Sec1 Faizahmed.M26@Iiits.In",
+        "Roll": "S20260010153",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "faizahmed.m26@iiits.in": {
+        "Name": "S20260010159 Mohammad Khaja Faiz Ahmed Cse Sec1 Mragansh.B26@Iiits.In",
+        "Roll": "S20260010159",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "mragansh.b26@iiits.in": {
+        "Name": "S20260010164 Mragansh Bhargava Cse Sec1 Harshithsai.M26@Iiits.In",
+        "Roll": "S20260010164",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "harshithsai.m26@iiits.in": {
+        "Name": "S20260010170 Muvvala Harshith Sai Cse Sec1 Acharya.N26@Iiits.In",
+        "Roll": "S20260010170",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "acharya.n26@iiits.in": {
+        "Name": "S20260010171 N Acharya Cse Sec1 Bannu.N26@Iiits.In",
+        "Roll": "S20260010171",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "bannu.n26@iiits.in": {
+        "Name": "S20260010172 Narlapati.Bannu Cse Sec1 Rohanthsai.N26@Iiits.In",
+        "Roll": "S20260010172",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "rohanthsai.n26@iiits.in": {
+        "Name": "S20260010179 Nukala Rohanth Sai Cse Sec1 Rampavantej.P26@Iiits.In",
+        "Roll": "S20260010179",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "rampavantej.p26@iiits.in": {
+        "Name": "S20260010182 Padala Ram Pavan Tej Cse Sec1 Venkatvarun.P26@Iiits.In",
+        "Roll": "S20260010182",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "venkatvarun.p26@iiits.in": {
+        "Name": "S20260010184 Pattipati Venkat Varun Cse Sec1 Thiyaagaraasan.P26@Iiits.In",
+        "Roll": "S20260010184",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "thiyaagaraasan.p26@iiits.in": {
+        "Name": "S20260010187 Pirai Thiyaagaraasan Cse Sec1 Piyush.K26@Iiits.In",
+        "Roll": "S20260010187",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "piyush.k26@iiits.in": {
+        "Name": "S20260010188 Piyush Kumar Cse Sec1 Piyushkumar.M26@Iiits.In",
+        "Roll": "S20260010188",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "piyushkumar.m26@iiits.in": {
+        "Name": "S20260010189 Piyush Kumar Meena Cse Sec1 Pranit.G26@Iiits.In",
+        "Roll": "S20260010189",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "pranit.g26@iiits.in": {
+        "Name": "S20260010192 Pranit Gupta Cse Sec1 Prateek.Jn26@Iiits.In",
+        "Roll": "S20260010192",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "prateek.jn26@iiits.in": {
+        "Name": "S20260010193 Prateek J N Cse Sec1 Rahul.S26@Iiits.In",
+        "Roll": "S20260010193",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "rahul.s26@iiits.in": {
+        "Name": "S20260010198 Rahul S Cse Sec1 Ranvijaysingh.R26@Iiits.In",
+        "Roll": "S20260010198",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "ranvijaysingh.r26@iiits.in": {
+        "Name": "S20260010201 Ranvijay Singh Rohal Cse Sec1 Spjawahar.R26@Iiits.In",
+        "Roll": "S20260010201",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "spjawahar.r26@iiits.in": {
+        "Name": "S20260010202 Rayavarapu Sai Prasanth Jawahar Cse Sec1 Rupeshsai.R26@Iiits.In",
+        "Roll": "S20260010202",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "rupeshsai.r26@iiits.in": {
+        "Name": "S20260010206 Rupesh Sai Ravi Cse Sec1 Rushilpatil.R26@Iiits.In",
+        "Roll": "S20260010206",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "rushilpatil.r26@iiits.in": {
+        "Name": "S20260010207 Rushil Rahul Patil Cse Sec1 Vasanthabhishek.S26@Iiits.In",
+        "Roll": "S20260010207",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "vasanthabhishek.s26@iiits.in": {
+        "Name": "S20260010208 S Vasanth Abhishek Cse Sec1 Saianeesh.E26@Iiits.In",
+        "Roll": "S20260010208",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "saianeesh.e26@iiits.in": {
+        "Name": "S20260010210 Sai Aneesh Eerla Cse Sec1 Sanjaay.K26@Iiits.In",
+        "Roll": "S20260010210",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "sanjaay.k26@iiits.in": {
+        "Name": "S20260010214 Sanjaay K Cse Sec1 Sarthakshrimant.P26@Iiits.In",
+        "Roll": "S20260010214",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "sarthakshrimant.p26@iiits.in": {
+        "Name": "S20260010219 Sarthak Shrimant Padalkar Cse Sec1 Abhijeet.S26@Iiits.In",
+        "Roll": "S20260010219",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "abhijeet.s26@iiits.in": {
+        "Name": "S20260010221 Satyam Abhijeet Cse Sec1 Savarshrinivas.K26@Iiits.In",
+        "Roll": "S20260010221",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "savarshrinivas.k26@iiits.in": {
+        "Name": "S20260010223 Savar Shrinivas Khandare Cse Sec1 Shaurya.S26@Iiits.In",
+        "Roll": "S20260010223",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "shaurya.s26@iiits.in": {
+        "Name": "S20260010226 Shaurya Sinha Cse Sec1 Soumojit.P26@Iiits.In",
+        "Roll": "S20260010226",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "soumojit.p26@iiits.in": {
+        "Name": "S20260010233 Soumojit Pan Cse Sec1 Stevematthew.P26@Iiits.In",
+        "Roll": "S20260010233",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "stevematthew.p26@iiits.in": {
+        "Name": "S20260010236 Steve Matthew Philip Cse Sec1 Suneet.B26@Iiits.In",
+        "Roll": "S20260010236",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "suneet.b26@iiits.in": {
+        "Name": "S20260010240 Suneet Bafna Cse Sec1 Tharoon.R26@Iiits.In",
+        "Roll": "S20260010240",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "tharoon.r26@iiits.in": {
+        "Name": "S20260010250 Tharoon R Cse Sec1 Vikas.Kk26@Iiits.In",
+        "Roll": "S20260010250",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "vikas.kk26@iiits.in": {
+        "Name": "S20260010263 Vikas Kk Cse Sec1 Voolanabhay.P26@Iiits.In",
+        "Roll": "S20260010263",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "voolanabhay.p26@iiits.in": {
+        "Name": "S20260010265 Voola Nabhay Patro Cse Sec1 Adityanitin.A26@Iiits.In",
+        "Roll": "S20260010265",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "adityanitin.a26@iiits.in": {
+        "Name": "S20260020277 Aditya Nitin Asole Ece Sec1 Akhil.K26@Iiits.In",
+        "Roll": "S20260020277",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "akhil.k26@iiits.in": {
+        "Name": "S20260020278 Akhil Kumar Ece Sec1 Jeevith.C26@Iiits.In",
+        "Roll": "S20260020278",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "jeevith.c26@iiits.in": {
+        "Name": "S20260020292 C Jeevith Ece Sec1 Ashokshewale.D26@Iiits.In",
+        "Roll": "S20260020292",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "ashokshewale.d26@iiits.in": {
+        "Name": "S20260020299 Devdatta Ashok Shewale Ece Sec1 Harish.C26@Iiits.In",
+        "Roll": "S20260020299",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "harish.c26@iiits.in": {
+        "Name": "S20260020305 G Harish Ece Sec1 Parthrahul.J26@Iiits.In",
+        "Roll": "S20260020305",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "parthrahul.j26@iiits.in": {
+        "Name": "S20260020310 Jade Parth Rahul Ece Sec1 Veeraanil.J26@Iiits.In",
+        "Roll": "S20260020310",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "veeraanil.j26@iiits.in": {
+        "Name": "S20260020313 Jatla Veera Anil Ece Sec1 Johaant.J26@Iiits.In",
+        "Roll": "S20260020313",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "johaant.j26@iiits.in": {
+        "Name": "S20260020314 Johaan T John Ece Sec1 Khavishwar.S26@Iiits.In",
+        "Roll": "S20260020314",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "khavishwar.s26@iiits.in": {
+        "Name": "S20260020319 Khavishwar S Ece Sec1 Kumar.K26@Iiits.In",
+        "Roll": "S20260020319",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "kumar.k26@iiits.in": {
+        "Name": "S20260020323 Kumar K Ece Sec1 Naethan.D26@Iiits.In",
+        "Roll": "S20260020323",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "naethan.d26@iiits.in": {
+        "Name": "S20260020332 Naethan D Narayanan Ece Sec1 Nischal.J26@Iiits.In",
+        "Roll": "S20260020332",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "nischal.j26@iiits.in": {
+        "Name": "S20260020334 Nischal J Ece Sec1 Praveenkumar.Nk26@Iiits.In",
+        "Roll": "S20260020334",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "praveenkumar.nk26@iiits.in": {
+        "Name": "S20260020342 Praveen Kumar N K Ece Sec1 Prajith.Sr26@Iiits.In",
+        "Roll": "S20260020342",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "prajith.sr26@iiits.in": {
+        "Name": "S20260020351 S R Prajith Ece Sec1 Aaqib.Sm26@Iiits.In",
+        "Roll": "S20260020351",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "aaqib.sm26@iiits.in": {
+        "Name": "S20260020359 Syed Mohammed Aaqib Ece Sec1 Rohitsai.A26@Iiits.In",
+        "Roll": "S20260020359",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "rohitsai.a26@iiits.in": {
+        "Name": "S20260030374 Alli Rohit Sai Ai&Ds Sec1 Ayushkumar.S26",
+        "Roll": "S20260030374",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "kevinaashrith.b26@iiits.in": {
+        "Name": "S20260030380 Badugu Kevin Aashrith Ai&Ds Sec1 Gokul.Bs26@Iiits.In",
+        "Roll": "S20260030380",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "gokul.bs26@iiits.in": {
+        "Name": "S20260030390 Gokul B S Ai&Ds Sec1 Manishraju.G26@Iiits.In",
+        "Roll": "S20260030390",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "manishraju.g26@iiits.in": {
+        "Name": "S20260030392 Gundra Manish Raju Ai&Ds Sec1 Mithulkirthik.V26@Iiits.In",
+        "Roll": "S20260030392",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "mithulkirthik.v26@iiits.in": {
+        "Name": "S20260030404 Mithulkirthik.V Ai&Ds Sec1 Harshavardhanreddy.N26@Iiits.In",
+        "Roll": "S20260030404",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "harshavardhanreddy.n26@iiits.in": {
+        "Name": "S20260030407 Nosum Harsha Vardhan Reddy Ai&Ds Sec1 Visnubala.O26@Iiits.In",
+        "Roll": "S20260030407",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "visnubala.o26@iiits.in": {
+        "Name": "S20260030408 Obuli Visnubala Ai&Ds Sec1 Sivasaicharan.P26@Iiits.In",
+        "Roll": "S20260030408",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "sivasaicharan.p26@iiits.in": {
+        "Name": "S20260030410 Pallaka Siva Sai Charan Reddy Ai&Ds Sec1 Parth.S26@Iiits.In",
+        "Roll": "S20260030410",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EE": "Sec1"
+        }
+    },
+    "parth.s26@iiits.in": {
+        "Name": "S20260030411 Parth Shingne Ai&Ds Sec1 Raqeebamaan.Ma26@Iiits.In",
+        "Roll": "S20260030411",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "raqeebamaan.ma26@iiits.in": {
+        "Name": "S20260030415 Raqeeb Amaan Mohammad Abdul Ai&Ds Sec1 Sidhaarthgowtham.G26@Iiits.In",
+        "Roll": "S20260030415",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "sidhaarthgowtham.g26@iiits.in": {
+        "Name": "S20260030424 Sidhaarth Gowtham G Ai&Ds Sec1 Sooryadev.R26@Iiits.In",
+        "Roll": "S20260030424",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "sooryadev.r26@iiits.in": {
+        "Name": "S20260030425 Sooryadev Rajesh Ai&Ds Sec1 Tanishq.G26@Iiits.In",
+        "Roll": "S20260030425",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "tanishq.g26@iiits.in": {
+        "Name": "S20260030429 Tanishq Garje Ai&Ds Sec1 Saichandraraju.V26@Iiits.In",
+        "Roll": "S20260030429",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "saichandraraju.v26@iiits.in": {
+        "Name": "S20260030432 Vysyaraju Sai Chandra Raju Ai&Ds Sec1 Akshay.K26@Iiits.In",
+        "Roll": "S20260030432",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec1",
+            "DSMA": "Sec1",
+            "EDL": "Sec1"
+        }
+    },
+    "jamlanaik.a25@iiits.in": {
+        "Name": "S20250020281 A Thirumala Sai Jamla Naik Ece Sec2 Sasmithkumar.J25@Iiits.In",
+        "Roll": "S20250020281",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "sasmithkumar.j25@iiits.in": {
+        "Name": "S20250020308 Jugala Sasmith Kumar Ece Sec2 Aadarsh.P26@Iiits.In",
+        "Roll": "S20250020308",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "aadarsh.p26@iiits.in": {
+        "Name": "S20260010001 Aadarsh Patidar Cse Sec2 Aaryanatish.K26@Iiits.In",
+        "Roll": "S20260010001",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "aaryanatish.k26@iiits.in": {
+        "Name": "S20260010005 Aaryan Atish Kakade Cse Sec2 Akshay.K26@Iiits.In",
+        "Roll": "S20260010005",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "akshay.k26@iiits.in": {
+        "Name": "S20260010015 Akshay Kumar Cse Sec2 Akshaya.K26@Iiits.In",
+        "Roll": "S20260010015",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "akshaya.k26@iiits.in": {
+        "Name": "S20260010016 Akshaya K Cse Sec2 Thrishanksai.A26@Iiits.In",
+        "Roll": "S20260010016",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "thrishanksai.a26@iiits.in": {
+        "Name": "S20260010017 Amineni Thrishank Sai Cse Sec2 Saishravika.A26@Iiits.In",
+        "Roll": "S20260010017",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "saishravika.a26@iiits.in": {
+        "Name": "S20260010019 Ancha Sai Shravika Cse Sec2 Aryan.D26@Iiits.In",
+        "Roll": "S20260010019",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "aryan.d26@iiits.in": {
+        "Name": "S20260010028 Aryan Dubey Cse Sec2 Anthonyjoshithareddy.B26@Iiits.In",
+        "Roll": "S20260010028",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "anthonyjoshithareddy.b26@iiits.in": {
+        "Name": "S20260010046 Burri Anthony Joshitha Reddy Cse Sec2 Dellieswararao.C26@Iiits.In",
+        "Roll": "S20260010046",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "dellieswararao.c26@iiits.in": {
+        "Name": "S20260010052 Chepa Dellieswararao Cse Sec2 Suchitra.D26@Iiits.In",
+        "Roll": "S20260010052",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "suchitra.d26@iiits.in": {
+        "Name": "S20260010054 D Suchitra Cse Sec2 Devvrat.Y26@Iiits.In",
+        "Roll": "S20260010054",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "devvrat.y26@iiits.in": {
+        "Name": "S20260010060 Devvrat Yadav Cse Sec2 Ujwalraj.E26@Iiits.In",
+        "Roll": "S20260010060",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "ujwalraj.e26@iiits.in": {
+        "Name": "S20260010066 Erras Ujwal Raj Cse Sec2 Govarthini.D26@Iiits.In",
+        "Roll": "S20260010066",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "govarthini.d26@iiits.in": {
+        "Name": "S20260010074 Govarthini D Cse Sec2 Madhavkalyan.G26@Iiits.In",
+        "Roll": "S20260010074",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "madhavkalyan.g26@iiits.in": {
+        "Name": "S20260010076 Grandhi Madhav Kalyan Cse Sec2 Haranadh.G26@Iiits.In",
+        "Roll": "S20260010076",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "haranadh.g26@iiits.in": {
+        "Name": "S20260010079 Gudiseva Haranadh Cse Sec2 Goutham.Gu26@Iiits.In",
+        "Roll": "S20260010079",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "goutham.gu26@iiits.in": {
+        "Name": "S20260010082 Gurijala Goutham Cse Sec2 Lithisha.J26@Iiits.In",
+        "Roll": "S20260010082",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "lithisha.j26@iiits.in": {
+        "Name": "S20260010095 Juluru Lithisha Cse Sec2 Hasini.Kp26@Iiits.In",
+        "Roll": "S20260010095",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "hasini.kp26@iiits.in": {
+        "Name": "S20260010100 Kakitapalli Hasini Cse Sec2 Rachellkeats.K26@Iiits.In",
+        "Roll": "S20260010100",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "rachellkeats.k26@iiits.in": {
+        "Name": "S20260010117 Komarabathi Rachell Keats Cse Sec2 Shreya.L26@Iiits.In",
+        "Roll": "S20260010117",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "shreya.l26@iiits.in": {
+        "Name": "S20260010129 Lakhinana Shreya Cse Sec2 Gnanadatta.L26@Iiits.In",
+        "Roll": "S20260010129",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "gnanadatta.l26@iiits.in": {
+        "Name": "S20260010130 Lalam Gnana Datta Cse Sec2 Laxmi.M26@Iiits.In",
+        "Roll": "S20260010130",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "laxmi.m26@iiits.in": {
+        "Name": "S20260010137 M Laxmi Cse Sec2 Sairamaa.M26@Iiits.In",
+        "Roll": "S20260010137",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sairamaa.m26@iiits.in": {
+        "Name": "S20260010151 Masimukkula Sai Ramaa Cse Sec2 Srimukesh.M26@Iiits.In",
+        "Roll": "S20260010151",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "srimukesh.m26@iiits.in": {
+        "Name": "S20260010152 Matamsetti Sri Mukesh Cse Sec2 Gautham.M26@Iiits.In",
+        "Roll": "S20260010152",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "gautham.m26@iiits.in": {
+        "Name": "S20260010157 Middiboyina Gautham Cse Sec2 Bhanusri.M26@Iiits.In",
+        "Roll": "S20260010157",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "bhanusri.m26@iiits.in": {
+        "Name": "S20260010158 Miriyala Tavya Sai Krishna Bhanu Sri Cse Sec2 Saad.M26@Iiits.In",
+        "Roll": "S20260010158",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "saad.m26@iiits.in": {
+        "Name": "S20260010160 Mohammad Saad Cse Sec2 Lipsika.M26@Iiits.In",
+        "Roll": "S20260010160",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "lipsika.m26@iiits.in": {
+        "Name": "S20260010163 Mood Lipsika Cse Sec2 Muhammedrinshal.A26@Iiits.In",
+        "Roll": "S20260010163",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "muhammedrinshal.a26@iiits.in": {
+        "Name": "S20260010167 Muhammed Rinshal A Cse Sec2 Abbhinavaraam.M26@Iiits.In",
+        "Roll": "S20260010167",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "abbhinavaraam.m26@iiits.in": {
+        "Name": "S20260010168 Mukku Abbhinavaraam Cse Sec2 Tushita.M26@Iiits.In",
+        "Roll": "S20260010168",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "tushita.m26@iiits.in": {
+        "Name": "S20260010169 Muppalam Tushita Cse Sec2 Anisha.N26@Iiits.In",
+        "Roll": "S20260010169",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "anisha.n26@iiits.in": {
+        "Name": "S20260010175 Nayani Anisha Cse Sec2 Nirzarrajesh.D26@Iiits.In",
+        "Roll": "S20260010175",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "nirzarrajesh.d26@iiits.in": {
+        "Name": "S20260010176 Nirzar Dhoke Cse Sec2 Nishant.N26@Iiits.In",
+        "Roll": "S20260010176",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "nishant.n26@iiits.in": {
+        "Name": "S20260010177 Nishant Cse Sec2 Omatul.G26@Iiits.In",
+        "Roll": "S20260010177",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "omatul.g26@iiits.in": {
+        "Name": "S20260010180 Om Atul Gavhane Cse Sec2 Pranavadithya.P26@Iiits.In",
+        "Roll": "S20260010180",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "pranavadithya.p26@iiits.in": {
+        "Name": "S20260010185 Pemmaraju Venkata Pranav Adithya Cse Sec2 Thripura.P26@Iiits.In",
+        "Roll": "S20260010185",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "thripura.p26@iiits.in": {
+        "Name": "S20260010186 Pidathala Thripura Cse Sec2 Prakhar.C26@Iiits.In",
+        "Roll": "S20260010186",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "prakhar.c26@iiits.in": {
+        "Name": "S20260010191 Prakhar Chaudhary Cse Sec2 Prathmeshvinod.S26@Iiits.In",
+        "Roll": "S20260010191",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "prathmeshvinod.s26@iiits.in": {
+        "Name": "S20260010194 Prathmesh Vinod Sonawane Cse Sec2 Priyanshu.A26@Iiits.In",
+        "Roll": "S20260010194",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "priyanshu.a26@iiits.in": {
+        "Name": "S20260010195 Priyanshu Alawe Cse Sec2 Abhiramreddy.P26@Iiits.In",
+        "Roll": "S20260010195",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "abhiramreddy.p26@iiits.in": {
+        "Name": "S20260010196 Pulukurthy Abhiram Reddy Cse Sec2 Pavansai.P26@Iiits.In",
+        "Roll": "S20260010196",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "pavansai.p26@iiits.in": {
+        "Name": "S20260010197 Puvvala Pavan Sai Cse Sec2 Sohamrangole.C26@Iiits.In",
+        "Roll": "S20260010197",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sohamrangole.c26@iiits.in": {
+        "Name": "S20260010200 Rangole Soham Chittaranjan Cse Sec2 Reddysrihari.V26@Iiits.In",
+        "Roll": "S20260010200",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "reddysrihari.v26@iiits.in": {
+        "Name": "S20260010203 Reddy Srihari V Cse Sec2 Sahasra.V26@Iiits.In",
+        "Roll": "S20260010203",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "sahasra.v26@iiits.in": {
+        "Name": "S20260010209 Sahasra Vaitla Cse Sec2 Raghava.S26@Iiits.In",
+        "Roll": "S20260010209",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "raghava.s26@iiits.in": {
+        "Name": "S20260010212 Saka Raghava Cse Sec2 Sanjal.P26@Iiits.In",
+        "Roll": "S20260010212",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "sanjal.p26@iiits.in": {
+        "Name": "S20260010215 Sanjal P Cse Sec2 Sanjay.R26@Iiits.In",
+        "Roll": "S20260010215",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sanjay.r26@iiits.in": {
+        "Name": "S20260010216 Sanjay Raju Cse Sec2 Saipreetham.S26@Iiits.In",
+        "Roll": "S20260010216",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "saipreetham.s26@iiits.in": {
+        "Name": "S20260010218 Sarla Sai Preetham Cse Sec2 Shriyank.Sg26@Iiits.In",
+        "Roll": "S20260010218",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "shriyank.sg26@iiits.in": {
+        "Name": "S20260010228 Shriyank S G Cse Sec2 Sumitkumar.S26@Iiits.In",
+        "Roll": "S20260010228",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sumitkumar.s26@iiits.in": {
+        "Name": "S20260010238 Sumit Kumar Sachdev Cse Sec2 Jspriya.S26@Iiits.In",
+        "Roll": "S20260010238",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "jspriya.s26@iiits.in": {
+        "Name": "S20260010242 Suragouni Jaya Shanmukha Priya Cse Sec2 Tejasnavnath.G26@Iiits.In",
+        "Roll": "S20260010242",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "tejasnavnath.g26@iiits.in": {
+        "Name": "S20260010249 Tejas Navnath Ghalgir Cse Sec2 Syleshhawensai.T26@Iiits.In",
+        "Roll": "S20260010249",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "syleshhawensai.t26@iiits.in": {
+        "Name": "S20260010252 Thondepu Sylesh Hawen Sai Cse Sec2 Trijal.M26@Iiits.In",
+        "Roll": "S20260010252",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "trijal.m26@iiits.in": {
+        "Name": "S20260010254 Trijal M Cse Sec2 Varshini.S26@Iiits.In",
+        "Roll": "S20260010254",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "varshini.s26@iiits.in": {
+        "Name": "S20260010260 Varshini S Cse Sec2 Akhilnaik.V26@Iiits.In",
+        "Roll": "S20260010260",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "akhilnaik.v26@iiits.in": {
+        "Name": "S20260010261 Varthya Akhil Naik Cse Sec2 Vedantpravin.26@Iiits.In",
+        "Roll": "S20260010261",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "vedantpravin.26@iiits.in": {
+        "Name": "S20260010262 Vedant Pravin Wankhade Cse Sec2 Pranaya.Y26@Iiits.In",
+        "Roll": "S20260010262",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "pranaya.y26@iiits.in": {
+        "Name": "S20260010266 Yadlapalli Pranaya Cse Sec2 Yaminishrinivas.U26@Iiits.In",
+        "Roll": "S20260010266",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "yaminishrinivas.u26@iiits.in": {
+        "Name": "S20260010267 Yamini Shrinivas Uppari Cse Sec2 Sathvik.Y26@Iiits.In",
+        "Roll": "S20260010267",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sathvik.y26@iiits.in": {
+        "Name": "S20260010270 Yella Sathvik Cse Sec2 Bhanuprakashnaidu.Y26@Iiits.In",
+        "Roll": "S20260010270",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "bhanuprakashnaidu.y26@iiits.in": {
+        "Name": "S20260010273 Yerri Bhanu Prakash Naidu Cse Sec2 Adithi.G26@Iiits.In",
+        "Roll": "S20260010273",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "adithi.g26@iiits.in": {
+        "Name": "S20260020275 Adithi Govindan Ece Sec2 Ammaar.Ak26@Iiits.In",
+        "Roll": "S20260020275",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "ammaar.ak26@iiits.in": {
+        "Name": "S20260020281 Ammaar Aziz Khan Ece Sec2 Avichalsingh.S26@Iiits.In",
+        "Roll": "S20260020281",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "avichalsingh.s26@iiits.in": {
+        "Name": "S20260020284 Avichal Singh Ece Sec2 Bhargav.A26@Iiits.In",
+        "Roll": "S20260020284",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "bhargav.a26@iiits.in": {
+        "Name": "S20260020285 Avula Bhargav Ece Sec2 Santhoshruthwik.B26@Iiits.In",
+        "Roll": "S20260020285",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "santhoshruthwik.b26@iiits.in": {
+        "Name": "S20260020286 Bachu Santhosh Ruthwik Ece Sec2 Sravani.C26@Iiits.In",
+        "Roll": "S20260020286",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sravani.c26@iiits.in": {
+        "Name": "S20260020293 C Sravani Ece Sec2 Vishalreddy.C26@Iiits.In",
+        "Roll": "S20260020293",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "vishalreddy.c26@iiits.in": {
+        "Name": "S20260020295 Chilka Vishal Reddy Ece Sec2 Trichakrarajtanush.C26@Iiits.In",
+        "Roll": "S20260020295",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "trichakrarajtanush.c26@iiits.in": {
+        "Name": "S20260020297 Chodisetti Trichakra Raj Tanush Ece Sec2 Devansh.C26@Iiits.In",
+        "Roll": "S20260020297",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "devansh.c26@iiits.in": {
+        "Name": "S20260020298 Devansh Chandani Ece Sec2 Venkatesh.D26@Iiits.In",
+        "Roll": "S20260020298",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "venkatesh.d26@iiits.in": {
+        "Name": "S20260020300 Dharavath Venkatesh Ece Sec2 Divakar.A26@Iiits.In",
+        "Roll": "S20260020300",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "divakar.a26@iiits.in": {
+        "Name": "S20260020302 Divakar Ece Sec2 Saiabhiram.G26@Iiits.In",
+        "Roll": "S20260020302",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "saiabhiram.g26@iiits.in": {
+        "Name": "S20260020307 Gudimetla Sai Abhiram Ece Sec2 Jaitashri.K26@Iiits.In",
+        "Roll": "S20260020307",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "jaitashri.k26@iiits.in": {
+        "Name": "S20260020311 Jaitashri Kinthada Ece Sec2 Yashwanth.J26@Iiits.In",
+        "Roll": "S20260020311",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "yashwanth.j26@iiits.in": {
+        "Name": "S20260020312 Jamulamadugu Yashwanth Ece Sec2 Hasini.K26@Iiits.In",
+        "Roll": "S20260020312",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "hasini.k26@iiits.in": {
+        "Name": "S20260020316 Kandalam Hasini Ece Sec2 Kishore.J26@Iiits.In",
+        "Roll": "S20260020316",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "kishore.j26@iiits.in": {
+        "Name": "S20260020320 Kishore J Ece Sec2 Saisreehith.K26@Iiits.In",
+        "Roll": "S20260020320",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "saisreehith.k26@iiits.in": {
+        "Name": "S20260020321 Kommavar Sai Sreehith Ece Sec2 Deekshitasai.K26@Iiits.In",
+        "Roll": "S20260020321",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "deekshitasai.k26@iiits.in": {
+        "Name": "S20260020322 Kommineni Deekshita Sai Ece Sec2 Kalpana.K26@Iiits.In",
+        "Roll": "S20260020322",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "kalpana.k26@iiits.in": {
+        "Name": "S20260020324 Kuruba Kalpana Ece Sec2 Rakshitha.M26@Iiits.In",
+        "Roll": "S20260020324",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "rakshitha.m26@iiits.in": {
+        "Name": "S20260020328 Meeniga Rakshitha Ece Sec2 Aarushreddy.A26@Iiits.In",
+        "Roll": "S20260020328",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "aarushreddy.a26@iiits.in": {
+        "Name": "S20260020336 Pasham Aarush Reddy Ece Sec2 Sahithchowdary.P26@Iiits.In",
+        "Roll": "S20260020336",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "sahithchowdary.p26@iiits.in": {
+        "Name": "S20260020338 Pavuluri Sahith Chowdary Ece Sec2 Hasinireddy.P26@Iiits.In",
+        "Roll": "S20260020338",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "hasinireddy.p26@iiits.in": {
+        "Name": "S20260020339 Pokala Hasini Reddy Ece Sec2 Pratham.P26@Iiits.In",
+        "Roll": "S20260020339",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "pratham.p26@iiits.in": {
+        "Name": "S20260020341 Pratham Palabatla Ece Sec2 Preethi.G26@Iiits.In",
+        "Roll": "S20260020341",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "preethi.g26@iiits.in": {
+        "Name": "S20260020343 Preethi Gnanavel Ece Sec2 Aditya.P26@Iiits.In",
+        "Roll": "S20260020343",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "aditya.p26@iiits.in": {
+        "Name": "S20260020344 Pulkit Aditya Ece Sec2 Rudrashish.C26@Iiits.In",
+        "Roll": "S20260020344",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "rudrashish.c26@iiits.in": {
+        "Name": "S20260020350 Rudrashish Chakraborty Ece Sec2 Sahu.Sh26@Iiits.In",
+        "Roll": "S20260020350",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "sahu.sh26@iiits.in": {
+        "Name": "S20260020352 Sahu Shubhrajit Hrushikesh Ece Sec2 Satwik.K26@Iiits.In",
+        "Roll": "S20260020352",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "satwik.k26@iiits.in": {
+        "Name": "S20260020353 Satwik Kulkarni Ece Sec2 Galibjunaid.Sd26@Iiits.In",
+        "Roll": "S20260020353",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "galibjunaid.sd26@iiits.in": {
+        "Name": "S20260020354 Sayyad Galib Junaid Ece Sec2 Puneethprabhu.T26@Iiits.In",
+        "Roll": "S20260020354",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "puneethprabhu.t26@iiits.in": {
+        "Name": "S20260020360 Thanikonda Puneeth Prabhu Ece Sec2 Abdulla.N26@Iiits.In",
+        "Roll": "S20260020360",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "abdulla.n26@iiits.in": {
+        "Name": "S20260030369 Abdulla Najvan Uk Ai&Ds Sec2 Abhishek.K26@Iiits.In",
+        "Roll": "S20260030369",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "abhishek.k26@iiits.in": {
+        "Name": "S20260030370 Abhishek Kumar Ai&Ds Sec2 Aditya.B26@Iiits.In",
+        "Roll": "S20260030370",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "aditya.b26@iiits.in": {
+        "Name": "S20260030372 Aditya Bhaskar Tangde Ai&Ds Sec2 Amitesh.A26@Iiits.In",
+        "Roll": "S20260030372",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "amitesh.a26@iiits.in": {
+        "Name": "S20260030375 Amitesh A Ai&Ds Sec2 Anushka.K26@Iiits.In",
+        "Roll": "S20260030375",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "anushka.k26@iiits.in": {
+        "Name": "S20260030376 Anushka Ai&Ds Sec2 Srinidhi.B26@Iiits.In",
+        "Roll": "S20260030376",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "srinidhi.b26@iiits.in": {
+        "Name": "S20260030381 Bathula Srinidhi Ai&Ds Sec2 Vardhan.G26@Iiits.In",
+        "Roll": "S20260030381",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EDL": "Sec1"
+        }
+    },
+    "vardhan.g26@iiits.in": {
+        "Name": "S20260030386 Gajula Vardhan Ai&Ds Sec2 Jayalasya.G26@Iiits.In",
+        "Roll": "S20260030386",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "jayalasya.g26@iiits.in": {
+        "Name": "S20260030387 Gandhavalla.Jaya Lasya Ai&Ds Sec2 Rajdeepreddy.K26@Iiits.In",
+        "Roll": "S20260030387",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec2",
+            "EE": "Sec1"
+        }
+    },
+    "rajdeepreddy.k26@iiits.in": {
+        "Name": "S20260030395 Kortha Rajdeep Reddy Ai&Ds Sec2 Krish.S26@Iiits.In",
+        "Roll": "S20260030395",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "krish.s26@iiits.in": {
+        "Name": "S20260030396 Krish Singh Ai&Ds Sec2 Sahitya.R26@Iiits.In",
+        "Roll": "S20260030396",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "sahitya.r26@iiits.in": {
+        "Name": "S20260030417 Sahitya Raj Ai&Ds Sec2 Naushaad.S26@Iiits.In",
+        "Roll": "S20260030417",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EDL": "Sec1"
+        }
+    },
+    "naushaad.s26@iiits.in": {
+        "Name": "S20260030420 Shaik Naushaad Ai&Ds Sec2 Atharvasheshraj.U26@Iiits.In",
+        "Roll": "S20260030420",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "atharvasheshraj.u26@iiits.in": {
+        "Name": "S20260030430 Ukey Atharva Sheshraj Ai&Ds Sec2 Siddunaik.V26@Iiits.In",
+        "Roll": "S20260030430",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "siddunaik.v26@iiits.in": {
+        "Name": null,
+        "Roll": "S20260030431",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec2",
+            "DSMA": "Sec5",
+            "EE": "Sec1"
+        }
+    },
+    "tejanshu.a26@iiits.in": {
+        "Name": "S20260010018 Ammineni Tejanshu Cse Sec3 Manvitha.B26@Iiits.In",
+        "Roll": "S20260010018",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "manvitha.b26@iiits.in": {
+        "Name": "S20260010037 Bantu Manvitha Cse Sec3 Rathanteja.B26@Iiits.In",
+        "Roll": "S20260010037",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "rathanteja.b26@iiits.in": {
+        "Name": "S20260010044 Bollineni Rathan Teja Cse Sec3 Gayatrimoksha.C26@Iiits.In",
+        "Roll": "S20260010044",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "gayatrimoksha.c26@iiits.in": {
+        "Name": "S20260010047 Chaganti Gayatri Moksha Cse Sec3 Yaswitha.C26@Iiits.In",
+        "Roll": "S20260010047",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "yaswitha.c26@iiits.in": {
+        "Name": "S20260010050 Chamakuri Yaswitha Cse Sec3 Deetyareddy.K26@Iiits.In",
+        "Roll": "S20260010050",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "deetyareddy.k26@iiits.in": {
+        "Name": "S20260010057 Deetya Reddy Kalluri Cse Sec3 Sriram.D26@Iiits.In",
+        "Roll": "S20260010057",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sriram.d26@iiits.in": {
+        "Name": "S20260010058 Deshabhathini Sriram Cse Sec3 Nipunreddy.D26@Iiits.In",
+        "Roll": "S20260010058",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "nipunreddy.d26@iiits.in": {
+        "Name": "S20260010065 Duppati Nipun Reddy Cse Sec3 Greeshmareddy.M26@Iiits.In",
+        "Roll": "S20260010065",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "greeshmareddy.m26@iiits.in": {
+        "Name": "S20260010077 Greeshma Reddy Meda Cse Sec3 Neelima.G26@Iiits.In",
+        "Roll": "S20260010077",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "neelima.g26@iiits.in": {
+        "Name": "S20260010081 Gulugulurineelima Cse Sec3 Vidyashree.V26@Iiits.In",
+        "Roll": "S20260010081",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "vidyashree.v26@iiits.in": {
+        "Name": "S20260010084 H Vidya Shree Cse Sec3 Harshini.R26@Iiits.In",
+        "Roll": "S20260010084",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "harshini.r26@iiits.in": {
+        "Name": "S20260010086 Harshini Ravi Cse Sec3 Sinduja.J26@Iiits.In",
+        "Roll": "S20260010086",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sinduja.j26@iiits.in": {
+        "Name": "S20260010090 Jakku Sinduja Cse Sec3 Jaysachin.K26@Iiits.In",
+        "Roll": "S20260010090",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "jaysachin.k26@iiits.in": {
+        "Name": "S20260010092 Jay Sachin Karnavat Cse Sec3 Jayavishnupriya.K26@Iiits.In",
+        "Roll": "S20260010092",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "jayavishnupriya.k26@iiits.in": {
+        "Name": "S20260010103 Kanakala Jaya Vishnu Priya Cse Sec3 Nikhilkrishnasai.K26@Iiits.In",
+        "Roll": "S20260010103",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "nikhilkrishnasai.k26@iiits.in": {
+        "Name": "S20260010104 Kandimalla Nikhil Krishna Sai Cse Sec3 Vinuthna.K26@Iiits.In",
+        "Roll": "S20260010104",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "vinuthna.k26@iiits.in": {
+        "Name": "S20260010108 Kanugula Vinuthna Cse Sec3 Hanifabanu.K26@Iiits.In",
+        "Roll": "S20260010108",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "hanifabanu.k26@iiits.in": {
+        "Name": "S20260010123 Kotnur Hanifa Banu Cse Sec3 Tarunteja.K26@Iiits.In",
+        "Roll": "S20260010123",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "tarunteja.k26@iiits.in": {
+        "Name": "S20260010124 Kottisa Tarun Teja Cse Sec3 Manjunath.K26@Iiits.In",
+        "Roll": "S20260010124",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "manjunath.k26@iiits.in": {
+        "Name": "S20260010127 Kuruva Manjunath Cse Sec3 Devanda.K26@Iiits.In",
+        "Roll": "S20260010127",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "devanda.k26@iiits.in": {
+        "Name": "S20260010128 Kushagra Devanda Cse Sec3 Harshitha.L26@Iiits.In",
+        "Roll": "S20260010128",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "harshitha.l26@iiits.in": {
+        "Name": "S20260010131 Lavudi Harshitha Cse Sec3 Vaishnavi.L26@Iiits.In",
+        "Roll": "S20260010131",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "vaishnavi.l26@iiits.in": {
+        "Name": "S20260010136 Lovisetti Vaishnavi Cse Sec3 Pranavireddy.M26@Iiits.In",
+        "Roll": "S20260010136",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "pranavireddy.m26@iiits.in": {
+        "Name": "S20260010146 Malgari Pranavi Reddy Cse Sec3 Manaswini.N26@Iiits.In",
+        "Roll": "S20260010146",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "manaswini.n26@iiits.in": {
+        "Name": "S20260010147 Manaswini Nandipati Cse Sec3 Jyothirmayi.M26@Iiits.In",
+        "Roll": "S20260010147",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "jyothirmayi.m26@iiits.in": {
+        "Name": "S20260010156 Merla Jyothirmayi Cse Sec3 Monika.Km26@Iiits.In",
+        "Roll": "S20260010156",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "monika.km26@iiits.in": {
+        "Name": "S20260010162 Monika K M Cse Sec3 Prudvidarreddy.N26@Iiits.In",
+        "Roll": "S20260010162",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "prudvidarreddy.n26@iiits.in": {
+        "Name": "S20260010173 Narra Prudvidar Reddy Cse Sec3 Sahasra.N26@Iiits.In",
+        "Roll": "S20260010173",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "sahasra.n26@iiits.in": {
+        "Name": "S20260010174 Narra Sahasra Cse Sec3 Nripendrababu.Hr26@Iiits.In",
+        "Roll": "S20260010174",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "nripendrababu.hr26@iiits.in": {
+        "Name": "S20260010178 Nripendra Babu H R Cse Sec3 Prachipramod.K26@Iiits.In",
+        "Roll": "S20260010178",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "prachipramod.k26@iiits.in": {
+        "Name": "S20260010190 Prachi Pramod Khandare Cse Sec3 Rishika.D26@Iiits.In",
+        "Roll": "S20260010190",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "rishika.d26@iiits.in": {
+        "Name": "S20260010205 Rishika Dubey Cse Sec3 Lrsrivarshini.S26@Iiits.In",
+        "Roll": "S20260010205",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "lrsrivarshini.s26@iiits.in": {
+        "Name": "S20260010211 Saka Lakshmi Ratna Srivarshini Cse Sec3 Santhosh.V26@Iiits.In",
+        "Roll": "S20260010211",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "santhosh.v26@iiits.in": {
+        "Name": "S20260010217 Santhosh V Cse Sec3 Ramcharanteja.S26@Iiits.In",
+        "Roll": "S20260010217",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "ramcharanteja.s26@iiits.in": {
+        "Name": "S20260010220 Sarvasuddi Ram Charan Teja Cse Sec3 Mohammedmubbashiradeeb.Sk26@Iiits.Ins20260010224 Shaik Mohammed Mubbashir Adeeb Cse Sec3 Shabbeerali.S26@Iiits.In",
+        "Roll": "S20260010220",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "mohammedmubbashiradeeb.sk26@iiits.ins20260010224": {
+        "Name": "Shaik Mohammed Mubbashir Adeeb Cse Sec3 Shabbeerali.S26@Iiits.In",
+        "Roll": "S20260010225",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3"
+        }
+    },
+    "shabbeerali.s26@iiits.in": {
+        "Name": "S20260010225 Shaik Shabbeer Ali Cse Sec3 Shikshit.Y46@Iiits.In",
+        "Roll": "S20260010225",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "shikshit.y46@iiits.in": {
+        "Name": "S20260010227 Shikshit Yadav Cse Sec3 Siddhantsanjay.D26@Iiits.In",
+        "Roll": "S20260010227",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "siddhantsanjay.d26@iiits.in": {
+        "Name": "S20260010229 Siddhant Sanjay Daud Cse Sec3 Prajwal.S26@Iiits.In",
+        "Roll": "S20260010229",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "prajwal.s26@iiits.in": {
+        "Name": "S20260010230 Sigarambotla Prajwal Cse Sec3 Srimanas.P26@Iiits.In",
+        "Roll": "S20260010230",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "srimanas.p26@iiits.in": {
+        "Name": "S20260010235 Srimanas Perambuduri Cse Sec3 Sudharsan.J26@Iiits.In",
+        "Roll": "S20260010235",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sudharsan.j26@iiits.in": {
+        "Name": "S20260010237 Sudharsan J Cse Sec3 Sundram.S26@Iiits.In",
+        "Roll": "S20260010237",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "sundram.s26@iiits.in": {
+        "Name": "S20260010239 Sundram Singh Cse Sec3 Manjusree.S26@Iiits.In",
+        "Roll": "S20260010239",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "manjusree.s26@iiits.in": {
+        "Name": "S20260010243 Suram Manju Sree Cse Sec3 Deepthibhavana.T26@Iiits.In",
+        "Roll": "S20260010243",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "deepthibhavana.t26@iiits.in": {
+        "Name": "S20260010245 Tallam Deepthi Bhavana Cse Sec3 Tejasgopal.P26@Iiits.In",
+        "Roll": "S20260010245",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "tejasgopal.p26@iiits.in": {
+        "Name": "S20260010248 Tejas Gopal Pagrut Cse Sec3 Harshavardhanreddy.T26@Iiits.In",
+        "Roll": "S20260010248",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "harshavardhanreddy.t26@iiits.in": {
+        "Name": "S20260010251 Thondamanati Harsha Vardhan Reddy Cse Sec3 Yshashikantbhai.T26@Iiits.In",
+        "Roll": "S20260010251",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "yshashikantbhai.t26@iiits.in": {
+        "Name": "S20260010253 Thumar Yashvi Shashikantbhai Cse Sec3 Snuhith.U26@Iiits.In",
+        "Roll": "S20260010253",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "snuhith.u26@iiits.in": {
+        "Name": "S20260010256 Usakoila Snuhith Cse Sec3 Vaibhav.R26@Iiits.In",
+        "Roll": "S20260010256",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "vaibhav.r26@iiits.in": {
+        "Name": "S20260010258 Vaibhav Ranwasiya Cse Sec3 Vishwak.M26@Iiits.In",
+        "Roll": "S20260010258",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "vishwak.m26@iiits.in": {
+        "Name": "S20260010264 Vishwak Mogudumpuram Cse Sec3 Yash.S26@Iiits.In",
+        "Roll": "S20260010264",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "yash.s26@iiits.in": {
+        "Name": "S20260010269 Yash Singh Cse Sec3 Reshwanth.Y26@Iiits.In",
+        "Roll": "S20260010269",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "reshwanth.y26@iiits.in": {
+        "Name": "S20260010271 Yellati Reshwanth Cse Sec3 Bincyjoel.Y26@Iiits.In",
+        "Roll": "S20260010271",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "bincyjoel.y26@iiits.in": {
+        "Name": "S20260010272 Yeluri Bincy Joel Cse Sec3 Ananya.A26@Iiits.In",
+        "Roll": "S20260010272",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "ananya.a26@iiits.in": {
+        "Name": "S20260020274 Adepu Ananya Ece Sec3 Amoghp.K26@Iiits.In",
+        "Roll": "S20260020274",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "amoghp.k26@iiits.in": {
+        "Name": "S20260020282 Amogh P Kolathaya Ece Sec3 Akarsh.B26@Iiits.In",
+        "Roll": "S20260020282",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "akarsh.b26@iiits.in": {
+        "Name": "S20260020287 Batchu Akarsh Ece Sec3 Harshavardhan.B26@Iiits.In",
+        "Roll": "S20260020287",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "harshavardhan.b26@iiits.in": {
+        "Name": "S20260020289 Bavirisetti Harsha Vardhan Ece Sec3 Mahanthreddy.B26@Iiits.In",
+        "Roll": "S20260020289",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "mahanthreddy.b26@iiits.in": {
+        "Name": "S20260020290 Bijjam Mahanth Reddy Ece Sec3 Shivapranayreddy.B26@Iiits.In",
+        "Roll": "S20260020290",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "shivapranayreddy.b26@iiits.in": {
+        "Name": "S20260020291 Borem Shiva Pranay Reddy Ece Sec3 Saismrutisahitya.C26@Iiits.In",
+        "Roll": "S20260020291",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "saismrutisahitya.c26@iiits.in": {
+        "Name": "S20260020296 Chintala Sai Smruti Sahitya Ece Sec3 Dharshan.Sp26@Iiits.In",
+        "Roll": "S20260020296",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "dharshan.sp26@iiits.in": {
+        "Name": "S20260020301 Dharshan Senthilkumar Pushparani Ece Sec3 Elakkiya.P26@Iiits.In",
+        "Roll": "S20260020301",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "elakkiya.p26@iiits.in": {
+        "Name": "S20260020303 Elakkiya P Ece Sec3 Elaneethan.S26@Iiits.In",
+        "Roll": "S20260020303",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "elaneethan.s26@iiits.in": {
+        "Name": "S20260020304 Elaneethan S Ece Sec3 Mahi.S26@Iiits.In",
+        "Roll": "S20260020304",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "mahi.s26@iiits.in": {
+        "Name": "S20260020325 Mahi Singh Ece Sec3 Sairam.M26@Iiits.In",
+        "Roll": "S20260020325",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sairam.m26@iiits.in": {
+        "Name": "S20260020326 Malothu Sai Ram Ece Sec3 Minnila.Mp26@Iiits.In",
+        "Roll": "S20260020326",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "minnila.mp26@iiits.in": {
+        "Name": "S20260020329 Minnila M P Ece Sec3 Yasawini.M26@Iiits.In",
+        "Roll": "S20260020329",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "yasawini.m26@iiits.in": {
+        "Name": "S20260020330 Mittapalli Yasaswini Ece Sec3 Sainathreddy.N26@Iiits.In",
+        "Roll": "S20260020330",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sainathreddy.n26@iiits.in": {
+        "Name": "S20260020333 Nagireddypalli Sainath Reddy Ece Sec3 Mahith.P26@Iiits.In",
+        "Roll": "S20260020333",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "mahith.p26@iiits.in": {
+        "Name": "S20260020335 Paladugu Mahith Ece Sec3 Dhairyasuresh.P26@Iiits.In",
+        "Roll": "S20260020335",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "dhairyasuresh.p26@iiits.in": {
+        "Name": "S20260020337 Patel Dhairya Suresh Ece Sec3 Pragadeesh.B26@Iiits.In",
+        "Roll": "S20260020337",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "pragadeesh.b26@iiits.in": {
+        "Name": "S20260020340 Pragadeesh B Ece Sec3 Nmrushikumar.R26@Iiits.In",
+        "Roll": "S20260020340",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "nmrushikumar.r26@iiits.in": {
+        "Name": "S20260020345 Ravinuthala Naga Mohana Rushi Kumar Ece Sec3 Revanshusudhir.G26@Iiits.In",
+        "Roll": "S20260020345",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "revanshusudhir.g26@iiits.in": {
+        "Name": "S20260020347 Revanshu Sudhir Gawai Ece Sec3 Maniteja.R26@Iiits.In",
+        "Roll": "S20260020347",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "maniteja.r26@iiits.in": {
+        "Name": "S20260020349 Routhu Mani Teja Ece Sec3 Mohammedraiyanwasi.S26@Iiits.In",
+        "Roll": "S20260020349",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "mohammedraiyanwasi.s26@iiits.in": {
+        "Name": "S20260020355 Shaik Mohammed Raiyan Wasi Ece Sec3 Sharvesh.V26@Iiits.In",
+        "Roll": "S20260020355",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "sharvesh.v26@iiits.in": {
+        "Name": "S20260020356 Sharvesh V Ece Sec3 Suki.S26@Iiits.In",
+        "Roll": "S20260020356",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "suki.s26@iiits.in": {
+        "Name": "S20260020358 Suki S Ece Sec3 Msssavinash.T26@Iiits.In",
+        "Roll": "S20260020358",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "msssavinash.t26@iiits.in": {
+        "Name": "S20260020361 Thota Mohana Sri Satya Sai Avinash Ece Sec3 Naveen.D26@Iiits.In",
+        "Roll": "S20260020361",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "naveen.d26@iiits.in": {
+        "Name": "S20260020362 U Naveen Ece Sec3 Divyateja.U26@Iiits.In",
+        "Roll": "S20260020362",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "divyateja.u26@iiits.in": {
+        "Name": "S20260020363 Udatha Divyateja Ece Sec3 Vasudevan.M26@Iiits.In",
+        "Roll": "S20260020363",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "vasudevan.m26@iiits.in": {
+        "Name": "S20260020364 Vasudevan M Ece Sec3 Viraj.K26@Iiits.In",
+        "Roll": "S20260020364",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "viraj.k26@iiits.in": {
+        "Name": "S20260020366 Viraj Kate Ece Sec3 Yasahswiram.Y26@Iiits.In",
+        "Roll": "S20260020366",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "yasahswiram.y26@iiits.in": {
+        "Name": "S20260020367 Yarramaneni Yasahswiram Ece Sec3 Aarush.A26@Iiits.In",
+        "Roll": "S20260020367",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "aarush.a26@iiits.in": {
+        "Name": "S20260030368 Aarush Agarwal Ai&Ds Sec3 Jijnash.A26@Iiits.In",
+        "Roll": "S20260030368",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "jijnash.a26@iiits.in": {
+        "Name": "S20260030371 Adigarla Jijnash Ai&Ds Sec3 Aravindsai.A26@Iiits.In",
+        "Roll": "S20260030371",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "aravindsai.a26@iiits.in": {
+        "Name": "S20260030373 Alichala Aravind Sai Ai&Ds Sec3 Srivaidik.A26@Iiits.In",
+        "Roll": "S20260030373",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "srivaidik.a26@iiits.in": {
+        "Name": "S20260030377 Arelli Srivaidik Ai&Ds Sec3 Sandeepchowdary.B26@Iiits.In",
+        "Roll": "S20260030377",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "sandeepchowdary.b26@iiits.in": {
+        "Name": "S20260030382 Bollepalli Sandeep Chowdary Ai&Ds Sec3 Divyasharvani.B26@Iiits.In",
+        "Roll": "S20260030382",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "divyasharvani.b26@iiits.in": {
+        "Name": "S20260030383 Bukke Divya Sharvani Ai&Ds Sec3 Pranavi.C26@Iiits.In",
+        "Roll": "S20260030383",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "pranavi.c26@iiits.in": {
+        "Name": "S20260030384 Chalasani Pranavi Ai&Ds Sec3 Vmalleswarareddy.G26@Iiits.In",
+        "Roll": "S20260030384",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "vmalleswarareddy.g26@iiits.in": {
+        "Name": "S20260030388 Gangarapu Vijaya Malleswara Reddy Ai&Ds Sec3 Satwikreddy.G26@Iiits.In",
+        "Roll": "S20260030388",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "satwikreddy.g26@iiits.in": {
+        "Name": "S20260030391 Guddety Satwik Reddy Ai&Ds Sec3 Keerthan.M26@Iiits.In",
+        "Roll": "S20260030391",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "keerthan.m26@iiits.in": {
+        "Name": "S20260030393 Keerthan Myakala Ai&Ds Sec3 Shivramprasad.K26@Iiits.In",
+        "Roll": "S20260030393",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "shivramprasad.k26@iiits.in": {
+        "Name": "S20260030394 Khawale Shiv Ramprasad Ai&Ds Sec3 Lakshmiasritha.K26@Iiits.In",
+        "Roll": "S20260030394",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "lakshmiasritha.k26@iiits.in": {
+        "Name": "S20260030397 Kudupudi Lakshmi Asritha Ai&Ds Sec3 Nagapranav.K26@Iiits.In",
+        "Roll": "S20260030397",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "nagapranav.k26@iiits.in": {
+        "Name": "S20260030398 Kutagulla Naga Pranav Ai&Ds Sec3 Vedikakrishna.L26@Iiits.In",
+        "Roll": "S20260030398",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "vedikakrishna.l26@iiits.in": {
+        "Name": "S20260030399 Lingineni Vedika Krishna Ai&Ds Sec3 Gowrish.M26@Iiits.In",
+        "Roll": "S20260030399",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "gowrish.m26@iiits.in": {
+        "Name": "S20260030400 Marripati Gowrish Ai&Ds Sec3 Charanganesh.M26@Iiits.In",
+        "Roll": "S20260030400",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "charanganesh.m26@iiits.in": {
+        "Name": "S20260030401 Medikonduri Charan Ganesh Ai&Ds Sec3 Saishloka.M26@Iiits.In",
+        "Roll": "S20260030401",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "saishloka.m26@iiits.in": {
+        "Name": "S20260030402 Meka Sai Shloka Ai&Ds Sec3 Snigdha.M26@Iiits.In",
+        "Roll": "S20260030402",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "snigdha.m26@iiits.in": {
+        "Name": "S20260030403 Merugu Snigdha Ai&Ds Sec3 Nageswaran.S26@Iiits.In",
+        "Roll": "S20260030403",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "nageswaran.s26@iiits.in": {
+        "Name": "S20260030405 Nageswaran Sairam Ai&Ds Sec3 Prasunakumar.P26@Iiits.In",
+        "Roll": "S20260030405",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "prasunakumar.p26@iiits.in": {
+        "Name": "S20260030412 Posa Venkata Sai Gnana Prasuna Kumar Ai&Ds Sec3 Rahulsingh.B26@Iiits.In",
+        "Roll": "S20260030412",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "rahulsingh.b26@iiits.in": {
+        "Name": "S20260030414 Rahul Ai&Ds Sec3 Mohansai.S26@Iiits.In",
+        "Roll": "S20260030414",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "mohansai.s26@iiits.in": {
+        "Name": "S20260030418 Sanaboyina Mohan Sai Ai&Ds Sec3 Saumita.B26@Iiits.In",
+        "Roll": "S20260030418",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "saumita.b26@iiits.in": {
+        "Name": "S20260030419 Saumita Biswas Ai&Ds Sec3 Shiven.R26@Iiits.In",
+        "Roll": "S20260030419",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EE": "Sec2"
+        }
+    },
+    "shiven.r26@iiits.in": {
+        "Name": "S20260030422 Shiven Rana Ai&Ds Sec3 Swarasya.M26@Iiits.In",
+        "Roll": "S20260030422",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "swarasya.m26@iiits.in": {
+        "Name": null,
+        "Roll": "S20260030428",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec3",
+            "DSMA": "Sec3",
+            "EDL": "Sec2"
+        }
+    },
+    "jagadiswarreddy.s25@iiits.in": {
+        "Name": "S20250010235 Sitammagari Jagadiswar Reddy Cse Sec4 Abhinav.S26@Iiits.In",
+        "Roll": "S20250010235",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec1"
+        }
+    },
+    "abhinav.s26@iiits.in": {
+        "Name": "S20260010006 Abhinav Singh Cse Sec4 Akshaj.P26@Iiits.In",
+        "Roll": "S20260010006",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "akshaj.p26@iiits.in": {
+        "Name": "S20260010014 Akshaj P Cse Sec4 Ayush.A26@Iiits.In",
+        "Roll": "S20260010014",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "ayush.a26@iiits.in": {
+        "Name": "S20260010033 Ayush Cse Sec4 Ayushpal.S26@Iiits.In",
+        "Roll": "S20260010033",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "ayushpal.s26@iiits.in": {
+        "Name": "S20260010034 Ayush Pal Singh Cse Sec4 Kowshik.B26@Iiits.In",
+        "Roll": "S20260010034",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "kowshik.b26@iiits.in": {
+        "Name": "S20260010038 Bellam Kowshik Cse Sec4 Sanjay.B26@Iiits.In",
+        "Roll": "S20260010038",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sanjay.b26@iiits.in": {
+        "Name": "S20260010041 Bhukya Sanjay Cse Sec4 Venkatasatyaparthiv.B26@Iiits.In",
+        "Roll": "S20260010041",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "venkatasatyaparthiv.b26@iiits.in": {
+        "Name": "S20260010043 Bolisetti Venkata Satya Parthiv Cse Sec4 Darshan.S26@Iiits.In",
+        "Roll": "S20260010043",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "darshan.s26@iiits.in": {
+        "Name": "S20260010056 Darshan S Cse Sec4 Svsrujanreddy.D26@Iiits.In",
+        "Roll": "S20260010056",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "svsrujanreddy.d26@iiits.in": {
+        "Name": "S20260010059 Devana Sai Viswa Srujan Reddy Cse Sec4 Ethan.J26@Iiits.In",
+        "Roll": "S20260010059",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "ethan.j26@iiits.in": {
+        "Name": "S20260010067 Ethan Joseph Cse Sec4 Akshaylokesh.G26@Iiits.In",
+        "Roll": "S20260010067",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "akshaylokesh.g26@iiits.in": {
+        "Name": "S20260010069 Ganapareddy Akshay Lokesh Cse Sec4 Lokendra.G26@Iiits.In",
+        "Roll": "S20260010069",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "lokendra.g26@iiits.in": {
+        "Name": "S20260010073 Gollapalli Lokendra Cse Sec4 Parimalchandan.G26@Iiits.In",
+        "Roll": "S20260010073",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "parimalchandan.g26@iiits.in": {
+        "Name": "S20260010080 Gugloth Parimal Chandan Cse Sec4 Hariko26@Iiits.In",
+        "Roll": "S20260010080",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "hariko26@iiits.in": {
+        "Name": "S20260010085 Hari Krishna O Cse Sec4 Vamsisaikumar.I26@Iiits.In",
+        "Roll": "S20260010085",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "vamsisaikumar.i26@iiits.in": {
+        "Name": "S20260010087 Ippaka Vamsi Sai Kumar Cse Sec4 Jhanavarshan.Rs26@Iiits.In",
+        "Roll": "S20260010087",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "jhanavarshan.rs26@iiits.in": {
+        "Name": "S20260010093 Jhanavarshan R S Cse Sec4 Suryahithesh.J26@Iiits.In",
+        "Roll": "S20260010093",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "suryahithesh.j26@iiits.in": {
+        "Name": "S20260010096 Juturu Surya Hithesh Cse Sec4 Sharodhvarma.K26@Iiits.In",
+        "Roll": "S20260010096",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sharodhvarma.k26@iiits.in": {
+        "Name": "S20260010101 Kalidindi Sharodh Varma Cse Sec4 Karthikeyan.P26@Iiits.In",
+        "Roll": "S20260010101",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "karthikeyan.p26@iiits.in": {
+        "Name": "S20260010110 Karthikeyan P Cse Sec4 Pruthvirajrathod.K26@Iiits.In",
+        "Roll": "S20260010110",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "pruthvirajrathod.k26@iiits.in": {
+        "Name": "S20260010116 Khola Pruthviraj Rathod Cse Sec4 Navneet.K26@Iiits.In",
+        "Roll": "S20260010116",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "navneet.k26@iiits.in": {
+        "Name": "S20260010119 Konathala Navneet Cse Sec4 Srisai.K26@Iiits.In",
+        "Roll": "S20260010119",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "srisai.k26@iiits.in": {
+        "Name": "S20260010122 Koracha Srisai Cse Sec4 Srisaicharantej.M26@Iiits.In",
+        "Roll": "S20260010122",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "srisaicharantej.m26@iiits.in": {
+        "Name": "S20260010143 Maganti Sri Sai Charan Tej Cse Sec4 Shashanthkumarreddy.M26@Iiits.In",
+        "Roll": "S20260010143",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "shashanthkumarreddy.m26@iiits.in": {
+        "Name": "S20260010149 Mannela Shashanth Kumar Reddy Cse Sec4 Aahan.M26@Iiits.In",
+        "Roll": "S20260010149",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "aahan.m26@iiits.in": {
+        "Name": "S20260010002 Aahan Mathur Cse Sec4 Aahil.M26@Iiits.In",
+        "Roll": "S20260010002",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "aahil.m26@iiits.in": {
+        "Name": "S20260010003 Aahil Mohammed P R Cse Sec4 Aditya.S26@Iiits.In",
+        "Roll": "S20260010003",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "aditya.s26@iiits.in": {
+        "Name": "S20260010010 Aditya Sharma Cse Sec4 Aneesrehuman.Ak26@Iiits.In",
+        "Roll": "S20260010010",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "aneesrehuman.ak26@iiits.in": {
+        "Name": "S20260010020 Anees Rehuman Ahammad Kunju Cse Sec4 Varshith.A26@Iiits.In",
+        "Roll": "S20260010020",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "varshith.a26@iiits.in": {
+        "Name": "S20260010024 Anugoju Varshith Cse Sec4 Arulkumar.S26@Iiits.In",
+        "Roll": "S20260010024",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "arulkumar.s26@iiits.in": {
+        "Name": "S20260010027 Arulkumar Somasundaram Cse Sec4 Ashmit.C26@Iiits.In",
+        "Roll": "S20260010027",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "ashmit.c26@iiits.in": {
+        "Name": "S20260010030 Ashmit Chanana Cse Sec4 Avikshith.Pr26@Iiits.In",
+        "Roll": "S20260010030",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "avikshith.pr26@iiits.in": {
+        "Name": "S20260010032 Avikshith P Rao Cse Sec4 Sushanth.B26@Iiits.In",
+        "Roll": "S20260010032",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sushanth.b26@iiits.in": {
+        "Name": "S20260010040 Bhimireddy Sushanth Cse Sec4 Bhupendra.K26@Iiits.In",
+        "Roll": "S20260010040",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "bhupendra.k26@iiits.in": {
+        "Name": "S20260010042 Bhupendra Kumar Cse Sec4 Udaysai.D26@Iiits.In",
+        "Roll": "S20260010042",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "udaysai.d26@iiits.in": {
+        "Name": "S20260010055 Darisa Uday Sai Cse Sec4 Dhruvmahesh.K26@Iiits.In",
+        "Roll": "S20260010055",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "dhruvmahesh.k26@iiits.in": {
+        "Name": "S20260010062 Dhruv Mahesh Kothari Cse Sec4 Pratapsingh.D26@Iiits.In",
+        "Roll": "S20260010062",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "pratapsingh.d26@iiits.in": {
+        "Name": "S20260010063 Dhurav Pratap Singh Cse Sec4 Fayad.Ma26@Iiits.In",
+        "Roll": "S20260010063",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "fayad.ma26@iiits.in": {
+        "Name": "S20260010068 Fayad Mohammed Anzari Cse Sec4 Jayavardhan.G26@Iiits.In",
+        "Roll": "S20260010068",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "jayavardhan.g26@iiits.in": {
+        "Name": "S20260010070 Gandrotula Jayavardhan Cse Sec4 Vedantlaxman.G26@Iiits.In",
+        "Roll": "S20260010070",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "vedantlaxman.g26@iiits.in": {
+        "Name": "S20260010071 Garud Vedant Laxman Cse Sec4 Goutham.G26@Iiits.In",
+        "Roll": "S20260010071",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "goutham.g26@iiits.in": {
+        "Name": "S20260010072 Golla Goutham Cse Sec4 Gowtham.P26@Iiits.In",
+        "Roll": "S20260010072",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "gowtham.p26@iiits.in": {
+        "Name": "S20260010075 Gowtham P Cse Sec4 Ishaan.D26@Iiits.In",
+        "Roll": "S20260010075",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "ishaan.d26@iiits.in": {
+        "Name": "S20260010088 Ishaan Dhiman Cse Sec4 Sunil.J26@Iiits.In",
+        "Roll": "S20260010088",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sunil.j26@iiits.in": {
+        "Name": "S20260010091 Jarpula Sunil Cse Sec4 Joshirugved.S26@Iiits.In",
+        "Roll": "S20260010091",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "joshirugved.s26@iiits.in": {
+        "Name": "S20260010094 Joshi Rugved Suhas Cse Sec4 Kabirchandrashekhar.B26@Iiits.In",
+        "Roll": "S20260010094",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "kabirchandrashekhar.b26@iiits.in": {
+        "Name": "S20260010099 Kabir Chandrashekhar Bagul Cse Sec4 Srihariharan.K26@Iiits.In",
+        "Roll": "S20260010099",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "srihariharan.k26@iiits.in": {
+        "Name": "S20260010106 Kanike Sri Hari Haran Cse Sec4 Anandkumar.K26@Iiits.In",
+        "Roll": "S20260010106",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "anandkumar.k26@iiits.in": {
+        "Name": "S20260010109 Karam Anand Kumar Cse Sec4 Harshithrathod.K26@Iiits.In",
+        "Roll": "S20260010109",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "harshithrathod.k26@iiits.in": {
+        "Name": "S20260010114 Kethavath Harshith Rathod Cse Sec4 Mohammedfahad.K26@Iiits.In",
+        "Roll": "S20260010114",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "mohammedfahad.k26@iiits.in": {
+        "Name": "S20260010115 Khazi Mohammed Fahad Cse Sec4 Sahith.K26@Iiits.In",
+        "Roll": "S20260010115",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sahith.k26@iiits.in": {
+        "Name": "S20260010118 Kommindala Sahith Cse Sec4 Abhinav.K26@Iiits.In",
+        "Roll": "S20260010118",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "mojithsimhareddy.l26@iiits.in": {
+        "Name": "S20260010133 Lingaladinne Mojith Simha Reddy Cse Sec4 Karthikeya.M26@Iiits.In",
+        "Roll": "S20260010133",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "karthikeya.m26@iiits.in": {
+        "Name": "S20260010140 Madala Karthikeya Cse Sec4 Rithwik.M26@Iiits.In",
+        "Roll": "S20260010140",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "rithwik.m26@iiits.in": {
+        "Name": "S20260010141 Madanala Rithwik Cse Sec4 Anish.M26@Iiits.In",
+        "Roll": "S20260010141",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "anish.m26@iiits.in": {
+        "Name": "S20260010142 Maddala Anish Cse Sec4 Siddharthvijaykumar.M26@Iiits.In",
+        "Roll": "S20260010142",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "siddharthvijaykumar.m26@iiits.in": {
+        "Name": "S20260010145 Makwana Siddharth Vijaykumar Cse Sec4 Deekshith.M26@Iiits.In",
+        "Roll": "S20260010145",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "deekshith.m26@iiits.in": {
+        "Name": "S20260010148 Manchala Deekshith Cse Sec4 Yasodhar.M26@Iiits.In",
+        "Roll": "S20260010148",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "yasodhar.m26@iiits.in": {
+        "Name": "S20260010150 Marry Yasodhar Cse Sec4 Meeth.J26@Iiits.In",
+        "Roll": "S20260010150",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "meeth.j26@iiits.in": {
+        "Name": "S20260010154 Meeth Jain Cse Sec4 Meghansh.B26@Iiits.In",
+        "Roll": "S20260010154",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "meghansh.b26@iiits.in": {
+        "Name": "S20260010155 Meghansh Bhargava Cse Sec4 Manashisham.K26@Iiits.In",
+        "Roll": "S20260010155",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "manashisham.k26@iiits.in": {
+        "Name": "S20260010161 Mohammed Anas Hisham K Cse Sec4 Madhavsai.M26@Iiits.In",
+        "Roll": "S20260010161",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "madhavsai.m26@iiits.in": {
+        "Name": "S20260010165 Mucheli Madhavsai Cse Sec4 Abaanpasha.M26@Iiits.In",
+        "Roll": "S20260010165",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "abaanpasha.m26@iiits.in": {
+        "Name": "S20260010166 Muhammad Abaan Pasha Cse Sec4 Abhinav.Pm26@Iiits.In",
+        "Roll": "S20260010166",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "abhinav.pm26@iiits.in": {
+        "Name": "S20260010181 P M Abhinav Cse Sec4 Nagasaisthithapragna.P26@Iiits.In",
+        "Roll": "S20260010181",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "nagasaisthithapragna.p26@iiits.in": {
+        "Name": "S20260010183 Pallap Nagasai Sthithapragna Cse Sec4 Karthikreddy.R26@Iiits.In",
+        "Roll": "S20260010183",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "karthikreddy.r26@iiits.in": {
+        "Name": "S20260010199 Ramireddy Gari Karthik Reddy Cse Sec4 Ribhu.P26@Iiits.In",
+        "Roll": "S20260010199",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "ribhu.p26@iiits.in": {
+        "Name": "S20260010204 Ribhu Paul Cse Sec4 Samarth.N26@Iiits.In",
+        "Roll": "S20260010204",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "samarth.n26@iiits.in": {
+        "Name": "S20260010213 Samarth Nair Cse Sec4 Saudbin.Am26@Iiits.In",
+        "Roll": "S20260010213",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "saudbin.am26@iiits.in": {
+        "Name": "S20260010222 Saud Bin Abdul Mutallib Cse Sec4 Sivasisir.M26@Iiits.In",
+        "Roll": "S20260010222",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "sivasisir.m26@iiits.in": {
+        "Name": "S20260010231 Siva Sisir Marla Cse Sec4 Maruthivaraprasad.S26@Iiits.In",
+        "Roll": "S20260010231",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "maruthivaraprasad.s26@iiits.in": {
+        "Name": "S20260010232 Somala Maruthi Vara Prasad Cse Sec4 Sreepadavallabh.A26@Iiits.In",
+        "Roll": "S20260010232",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "sreepadavallabh.a26@iiits.in": {
+        "Name": "S20260010234 Sreepada Vallabh Alluri Cse Sec4 Ajiteshsai.S26@Iiits.In",
+        "Roll": "S20260010234",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "ajiteshsai.s26@iiits.in": {
+        "Name": "S20260010241 Sunkara Ajitesh Sai Cse Sec4 Punethkumar.S26@Iiits.In",
+        "Roll": "S20260010241",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "punethkumar.s26@iiits.in": {
+        "Name": "S20260010244 Sureshbabu Punethkumar Cse Sec4 Tanish.R26@Iiits.In",
+        "Roll": "S20260010244",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "tanish.r26@iiits.in": {
+        "Name": "S20260010246 Tanish Cse Sec4 Vitthalkadam.T26@Iiits.In",
+        "Roll": "S20260010246",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "vitthalkadam.t26@iiits.in": {
+        "Name": "S20260010247 Tanishq Vitthal Kadam Cse Sec4 Harshithkumarreddy.U26@Iiits.In",
+        "Roll": "S20260010247",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "harshithkumarreddy.u26@iiits.in": {
+        "Name": "S20260010255 Uppalapati Harshith Kumar Reddy Cse Sec4 Vaibhav.C26@Iiits.In",
+        "Roll": "S20260010255",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "vaibhav.c26@iiits.in": {
+        "Name": "S20260010257 Vaibhav Chahar Cse Sec4 Varadkantaprasad.Z26@Iiits.In",
+        "Roll": "S20260010257",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "varadkantaprasad.z26@iiits.in": {
+        "Name": "S20260010259 Varad Kantaprasad Zanwar Cse Sec4 Yash.P26@Iiits.In",
+        "Roll": "S20260010259",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EE": "Sec2"
+        }
+    },
+    "yash.p26@iiits.in": {
+        "Name": "S20260010268 Yash Punia Cse Sec4 Aditya.K26@Iiits.In",
+        "Roll": "S20260010268",
+        "Branch": "CSE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "aditya.k26@iiits.in": {
+        "Name": "S20260020276 Aditya Kaushal Ece Sec4 Akil.R26@Iiits.In",
+        "Roll": "S20260020276",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "akil.r26@iiits.in": {
+        "Name": "S20260020279 Akil Rayees Ece Sec4 Aman.Y26@Iiits.In",
+        "Roll": "S20260020279",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "aman.y26@iiits.in": {
+        "Name": "S20260020280 Aman Yadav Ece Sec4 Atharvaamar.M26@Iiits.In",
+        "Roll": "S20260020280",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec4",
+            "EDL": "Sec2"
+        }
+    },
+    "atharvaamar.m26@iiits.in": {
+        "Name": "S20260020283 Atharva Amar Mankal Ece Sec4 Lokeshreddy.B26@Iiits.In",
+        "Roll": "S20260020283",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "lokeshreddy.b26@iiits.in": {
+        "Name": "S20260020288 Bathula Lokesh Reddy Ece Sec4 Zirtluanga.C26@Iiits.In",
+        "Roll": "S20260020288",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "zirtluanga.c26@iiits.in": {
+        "Name": "S20260020294 C.Zirtluanga Ece Sec4 Sanjeevreddy.G26@Iiits.In",
+        "Roll": "S20260020294",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "sanjeevreddy.g26@iiits.in": {
+        "Name": "S20260020306 Ghanta Sai Venkata Sanjeev Reddy Ece Sec4 Suvankarthikeya.G26@Iiits.In",
+        "Roll": "S20260020306",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "suvankarthikeya.g26@iiits.in": {
+        "Name": "S20260020308 Gudla Suvan Karthikeya Ece Sec4 Himesh.N26@Iiits.In",
+        "Roll": "S20260020308",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "himesh.n26@iiits.in": {
+        "Name": "S20260020309 Himesh Ninama Ece Sec4 Nishanthkrishna.J26@Iiits.In",
+        "Roll": "S20260020309",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "nishanthkrishna.j26@iiits.in": {
+        "Name": "S20260020315 Jonnadula Nishanth Krishna Ece Sec4 Kandhavel.A26@Iiits.In",
+        "Roll": "S20260020315",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "kandhavel.a26@iiits.in": {
+        "Name": "S20260020317 Kandhavel A Ece Sec4 Kartik.B26@Iiits.In",
+        "Roll": "S20260020317",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "kartik.b26@iiits.in": {
+        "Name": "S20260020318 Kartik Bhudeka Ece Sec4 Mayank.M26@Iiits.In",
+        "Roll": "S20260020318",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "mayank.m26@iiits.in": {
+        "Name": "S20260020327 Mayank Ece Sec4 Srisaivirendra.M26@Iiits.In",
+        "Roll": "S20260020327",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "srisaivirendra.m26@iiits.in": {
+        "Name": "S20260020331 Mutyala Sri Sai Virendra Ece Sec4 Niroopreddy.R26@Iiits.In",
+        "Roll": "S20260020331",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "niroopreddy.r26@iiits.in": {
+        "Name": "S20260020346 Reguri Niroop Reddy Ece Sec4 Rithuprasad.R26@Iiits.In",
+        "Roll": "S20260020346",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "rithuprasad.r26@iiits.in": {
+        "Name": "S20260020348 Rithuprasad R Ece Sec4 Pardhiv.S26@Iiits.In",
+        "Roll": "S20260020348",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "pardhiv.s26@iiits.in": {
+        "Name": "S20260020357 Siripuram Pardhiv Ece Sec4 Vetriselvan.D26@Iiits.In",
+        "Roll": "S20260020357",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "vetriselvan.d26@iiits.in": {
+        "Name": "S20260020365 Vetriselvan Divakar Ece Sec4 Chaithanyakrishna.A26@Iiits.In",
+        "Roll": "S20260020365",
+        "Branch": "ECE",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "chaithanyakrishna.a26@iiits.in": {
+        "Name": "S20260030378 Avula Chaithanya Krishna Ai&Ds Sec4 Vivekhvishwateja.C26@Iiits.In",
+        "Roll": "S20260030378",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "vivekhvishwateja.c26@iiits.in": {
+        "Name": "S20260030385 Chinnapaka Vivekh Vishwa Teja Ai&Ds Sec4 Sanjay.G26@Iiits.In",
+        "Roll": "S20260030385",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "sanjay.g26@iiits.in": {
+        "Name": "S20260030389 Ganti Sanjay Ai&Ds Sec4 Navarag.V26@Iiits.In",
+        "Roll": "S20260030389",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "navarag.v26@iiits.in": {
+        "Name": "S20260030406 Navarag Vangapally Ai&Ds Sec4 Prajwal.B26@Iiits.In",
+        "Roll": "S20260030406",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "prajwal.b26@iiits.in": {
+        "Name": "S20260030413 Prajwal Battina Ai&Ds Sec4 Varun.R26@Iiits.In",
+        "Roll": "S20260030413",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "varun.r26@iiits.in": {
+        "Name": "S20260030416 Rayi Varun Ai&Ds Sec4 Shaurya.K26@Iiits.In",
+        "Roll": "S20260030416",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "shaurya.k26@iiits.in": {
+        "Name": "S20260030421 Shaurya Kumar Ai&Ds Sec4 Siddharth.B26@Iiits.In",
+        "Roll": "S20260030421",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "siddharth.b26@iiits.in": {
+        "Name": "S20260030423 Siddharth Bartwal Ai&Ds Sec4 Sreeramdasumeeraj.K26@Iiits.In",
+        "Roll": "S20260030423",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "sreeramdasumeeraj.k26@iiits.in": {
+        "Name": "S20260030426 Sreeramdasu Meeraj Krishna Padmasali Ai&Ds Sec4 Sukshith.G26@Iiits.In",
+        "Roll": "S20260030426",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    },
+    "sukshith.g26@iiits.in": {
+        "Name": "S20260030427 Sukshith Girish Gowda Ai&Ds Sec5 Atharvasheshraj.U26@Iiits.In",
+        "Roll": "S20260030427",
+        "Branch": "AI&DS",
+        "Sections": {
+            "CP_DLD_OCW": "Sec4",
+            "DSMA": "Sec5",
+            "EDL": "Sec2"
+        }
+    },
+    "ayushkumar.s26@iiits.in": {
+        "Name": "S20260030379 Ayush Kumar Sagar Ai&Ds Sec1 Kevinaashrith.B26@Iiits.In",
+        "Roll": "S20260030379",
+        "Branch": "AI&DS",
+        "Sections": {
+            "DSMA": "Sec1"
+        }
+    },
+    "karthik.p26@iiits.in": {
+        "Name": "S20260030409 Palla Karthik Ai&Ds Sec5 Prasunakumar.P26@Iiits.In",
+        "Roll": "S20260030409",
+        "Branch": "AI&DS",
+        "Sections": {
+            "DSMA": "Sec5",
+            "EE": "Sec2"
+        }
+    }
+}

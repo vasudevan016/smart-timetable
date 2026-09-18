@@ -1,0 +1,202 @@
+{
+  "UG1": {
+    "Monday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec4", "room": "G08" },
+        { "base": "OCW", "course": "OCW", "section": "Sec1", "room": "LAB 103" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec1", "room": "LAB 103" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec2", "room": "G08" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec3", "room": "G07" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec2", "room": "G08" },
+        { "base": "CP", "course": "CP", "section": "Sec3", "room": "Lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec1", "room": "G09" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec4", "room": "G07" },
+        { "base": "CP", "course": "CP", "section": "Sec3", "room": "Lab 103" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec2", "room": "Lab 103" },
+        { "base": "OCW", "course": "OCW", "section": "Sec3", "room": "G07" },
+        { "base": "CP", "course": "CP", "section": "Sec1", "room": "G08" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec2", "room": "Lab 103" },
+        { "base": "CP", "course": "CP", "section": "Sec3", "room": "G08" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec5", "room": "G04" }
+      ]
+    },
+    "Tuesday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "CP", "course": "CP", "section": "Sec4", "room": "Lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec1", "room": "Lab 114/102" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "CP", "course": "CP", "section": "Sec4", "room": "Lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec1", "room": "Lab 114/102" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec3", "room": "G08" },
+        { "base": "OCW", "course": "OCW", "section": "Sec2", "room": "G09" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec3", "room": "Lab 114/102" },
+        { "base": "DLD", "course": "DLD", "section": "Sec2", "room": "G08" },
+        { "base": "DLD", "course": "DLD", "section": "Sec4", "room": "G09" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec3", "room": "Lab 114/102" },
+        { "base": "OCW", "course": "OCW", "section": "Sec4", "room": "G08" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec3", "room": "Lab 103" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec2", "room": "G09" },
+        { "base": "DLD", "course": "DLD", "section": "Sec1", "room": "B03" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec3", "room": "Lab 103" },
+        { "base": "CP", "course": "CP", "section": "Sec2", "room": "G09" },
+        { "base": "CP", "course": "CP", "section": "Sec4", "room": "B03" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec1", "room": "G08" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "CP", "course": "CP", "section": "Sec1", "room": "G06" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec4", "room": "G09" },
+        { "base": "OCW", "course": "OCW", "section": "Sec3", "room": "G07" }
+      ]
+    },
+    "Wednesday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "CP", "course": "CP", "section": "Sec1", "room": "Lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec4", "room": "LAB 114/102" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "CP", "course": "CP", "section": "Sec1", "room": "Lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec4", "room": "LAB 114/102" },
+        { "base": "DLD", "course": "DLD", "section": "Sec3", "room": "G07" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec1", "room": "G09" },
+        { "base": "CP", "course": "CP", "section": "Sec2", "room": "G08" },
+        { "base": "DLD", "course": "DLD", "section": "Sec4", "room": "G04" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec5", "room": "G09" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec3", "room": "G07" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec4", "room": "G09" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec4", "room": "G09" },
+        { "base": "DLD", "course": "DLD", "section": "Sec2", "room": "G08" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec1", "room": "G05" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "EE", "course": "EE", "section": "Sec2", "room": "G08" }
+      ],
+      "05:30 PM - 06:30 PM": [
+        { "base": "EE", "course": "EE", "section": "Sec2", "room": "G08" }
+      ]
+    },
+    "Thursday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec4", "room": "Lab 103" },
+        { "base": "OCW", "course": "OCW", "section": "Sec1", "room": "G08" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec4", "room": "Lab 103" },
+        { "base": "CP", "course": "CP", "section": "Sec1", "room": "G09" },
+        { "base": "CP", "course": "CP", "section": "Sec3", "room": "G07" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec1", "room": "G09" },
+        { "base": "CP", "course": "CP", "section": "Sec2", "room": "lab 103" },
+        { "base": "DLD", "course": "DLD", "section": "Sec3", "room": "G07" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "CP", "course": "CP", "section": "Sec2", "room": "lab 103" },
+        { "base": "OCW", "course": "OCW", "section": "Sec4", "room": "G08" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec1", "room": "G09" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec2", "room": "B05" },
+        { "base": "CP", "course": "CP", "section": "Sec4", "room": "G08" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec5", "room": "G09" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec2", "room": "G07" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "EDL", "course": "EDL", "section": "Sec1", "room": "G08" }
+      ],
+      "05:30 PM - 06:30 PM": [
+        { "base": "EDL", "course": "EDL", "section": "Sec1", "room": "G08" }
+      ]
+    },
+    "Friday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "OCW", "course": "OCW", "section": "Sec1", "room": "G09" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "DSMA", "course": "DSMA", "section": "Sec4", "room": "G09" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec5", "room": "G08" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec2", "room": "G07" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec3", "room": "G08" },
+        { "base": "OCW", "course": "OCW", "section": "Sec2", "room": "G09" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "CP", "course": "CP", "section": "Sec3", "room": "G06" },
+        { "base": "CP", "course": "CP", "section": "Sec2", "room": "G09" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec1", "room": "G07" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "CP", "course": "CP", "section": "Sec4", "room": "G09" },
+        { "base": "DSMA", "course": "DSMA", "section": "Sec3", "room": "G08" },
+        { "base": "DLD", "course": "DLD", "section": "Sec2", "room": "Lab 114/102" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "DLD", "course": "DLD", "section": "Sec2", "room": "Lab 114/102" },
+        { "base": "OCW", "course": "OCW", "section": "Sec3", "room": "G07" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "EE", "course": "EE", "section": "Sec1", "room": "G06" }
+      ],
+      "05:30 PM - 06:30 PM": [
+        { "base": "EE", "course": "EE", "section": "Sec1", "room": "G06" }
+      ]
+    },
+    "Saturday": {
+      "08:45 AM - 09:45 AM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "09:45 AM - 10:45 AM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "11:00 AM - 12:00 PM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "12:00 PM - 01:00 PM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "02:15 PM - 03:15 PM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "03:15 PM - 04:15 PM": [
+        { "base": "FHVE", "course": "FHVE", "branch": "ALL", "room": "TBD" }
+      ],
+      "04:30 PM - 05:30 PM": [
+        { "base": "EDL", "course": "EDL", "section": "Sec2", "room": "G04" }
+      ],
+      "05:30 PM - 06:30 PM": [
+        { "base": "EDL", "course": "EDL", "section": "Sec2", "room": "G04" }
+      ]
+    }
+  }
+}
