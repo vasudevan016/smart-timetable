@@ -75,7 +75,3 @@ for course, files in pdf_files.items():
 # Export the compiled database
 with open('students.json', 'w') as f:
     json.dump(student_db, f, indent=4)
-
-print(f"✅ Successfully parsed {len(student_db)} students into students.json!")
-print("\nTest Profile (Vasudevan):")
-print(json.dumps(student_db.get("vasudevan.m26@iiits.in", "Not Found"), indent=2))

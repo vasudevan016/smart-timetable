@@ -438,9 +438,9 @@
                     <div class="glass-panel glass-card rounded-xl p-3 md:p-4 relative transition-all duration-300 hover:bg-white/5 border ${cardOutline} animate-slide-up" style="animation-delay: ${index * 100}ms">
                         ${statusBadge}
                         <div class="flex items-center gap-3 md:gap-5">
-                            <div class="w-20 md:w-28 flex-shrink-0 border-r border-gray-700/50 pr-2 md:pr-4 text-right">
-                                <span class="text-xs md:text-sm font-bold text-gray-200 block tracking-tight">${startStr.replace(/ AM| PM/g, '')}</span>
-                                <span class="text-[9px] md:text-xs text-gray-500 font-medium block mt-0.5">${startStr.slice(-2)} - ${endStr.slice(-2)}</span>
+                            <div class="w-24 md:w-32 flex-shrink-0 border-r border-gray-700/50 pr-2 md:pr-4 text-right">
+                                <span class="text-[11px] md:text-sm font-bold text-gray-200 block tracking-tight">${startStr}</span>
+                                <span class="text-[9px] md:text-xs text-brand-400 font-medium block mt-0.5">to ${endStr}</span>
                             </div>
                             <div class="flex-grow">
                                 <div class="w-full rounded-lg border ${style} px-3 py-2 relative backdrop-blur-sm flex justify-between items-center gap-2">
@@ -487,7 +487,8 @@
                     const myClass = getMyClassForSlot(dayData[timeStr]);
                     if (myClass) {
                         classCount++; totalClasses++;
-                        const startTime = parseTime(timeStr.split(' - ')[0]), endTime = parseTime(timeStr.split(' - ')[1]);
+                        const [startStr, endStr] = timeStr.split(' - ');
+                        const startTime = parseTime(startStr), endTime = parseTime(endStr);
                         let style = colors[myClass.base] || "bg-gray-800/50 border-gray-600/50 text-gray-300";
                         let statusBadge = '', cardOutline = 'border-transparent', progressHTML = '';
                         
@@ -509,7 +510,7 @@
                                     <span class="font-extrabold text-[11px] tracking-wide leading-tight">${myClass.course} ${myClass.section || ''}</span>
                                     <span class="text-[8px] font-mono bg-black/50 border border-white/10 px-1 py-0.5 rounded text-gray-300 flex-shrink-0">${myClass.room}</span>
                                 </div>
-                                <div class="text-[9px] font-medium opacity-70 flex items-center"><i class="fa-regular fa-clock mr-1 text-[8px]"></i> ${timeStr.replace(/ AM| PM/g, '')}</div>
+                                <div class="text-[9px] font-medium opacity-75 flex items-center"><i class="fa-regular fa-clock mr-1 text-[8px] text-brand-400"></i> ${startStr.replace(/ AM| PM/g, '')} - ${endStr.replace(/ AM| PM/g, '')}</div>
                                 ${progressHTML}
                             </div>
                         `;
